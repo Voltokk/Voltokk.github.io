@@ -3,12 +3,6 @@ $(document).ready(function () {
     var push = $('#push-btn');
     push.click(function () {
         hide.slideToggle(600);
-        hide.addClass('active');
+        hide.toggleClass('active');
     });
-    $(window).resize(function () {
-        if ($(window).width > 767) {
-            hide.removeClass('active');
-            push.prop('checked') === false;
-        }
-    })
 });
