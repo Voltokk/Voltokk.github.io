@@ -242,7 +242,8 @@ img {
     width: 30px;
     height: 15px;
 }
-.submenu .hidden-menu{
+
+.submenu .hidden-menu {
     display: block !important;
 }
 
@@ -1066,9 +1067,14 @@ img {
 
 .banner .text_b3 {
     position: absolute;
-    top: 47%;
+    top: 48%;
     left: 50.3%;
     transform: translate(-50%, -50%);
+}
+
+.banner .text_b3 .title {
+    width: 90%;
+    margin: auto;
 }
 
 .banner .text_b2 .button {
@@ -1494,14 +1500,21 @@ img {
     width: inherit;
 }
 
-.left-col .left-col-bottom .b-card {
-    width: 159px;
-    float: left;
+.left-col .b-brands {
+    display: flex;
+    flex-direction: column;
 }
 
-.left-col .left-col-bottom .b-brands {
-    width: 159px;
-    float: right;
+.left-col .b-brands .button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.left-col .b-brands .button-group a {
+    text-decoration: none;
+    display: block;
 }
 
 .left-col p {
@@ -1553,7 +1566,7 @@ img {
 .left-col .button {
     margin: 0 0 45px 0;
     background: #b80c01;
-    width: 159px;
+    width: 180px;
     height: 25px;
     color: #f9f5e7;
     font-size: 14px;
@@ -1614,7 +1627,7 @@ img {
     margin-bottom: 15px !important;
 }
 
-.left-col .left-col-bottom .b-brands .button {
+.left-col .b-brands .button {
     font-family: "Garamond", sans-serif;
     text-transform: none;
 }
@@ -1887,7 +1900,7 @@ img {
     }
 
     .footer {
-        height: 110%;
+        height: 115%;
     }
 
     .footer .text_content {
@@ -1943,6 +1956,19 @@ img {
         width: 36.5%;
     }
 
+    .left-col .b-brands{
+        width: 425px;
+        margin: auto;
+    }
+    .left-col .b-brands>p{
+        text-align: center;
+    }
+    .left-col .b-brands .button-group{
+        padding: 0;
+    }
+    .left-col .b-brands .button-group div{
+        width: 207px;
+    }
     .left-col .left-col-bottom {
         position: relative;
         top: 5px;
@@ -1972,7 +1998,7 @@ img {
     .footer .right-col {
         width: 100% !important;
         position: absolute;
-        top: 410px;
+        top: 350px;
         left: 0;
     }
 

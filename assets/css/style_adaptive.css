@@ -1126,9 +1126,13 @@ ul.uppercase_text li {
     transform: translate(-50%, -50%);
 }
 
-.banner .text_b3 img:first-child {
-    width: 345px; /*45vw*/
-    display: block;
+.banner .text_b3 .title {
+    width: 60%;
+    margin: auto;
+}
+
+.banner .text_b3 .text_content {
+    margin: auto;
 }
 
 .banner .text_b2 ~ .btn-container-min .button {
@@ -1477,7 +1481,7 @@ ul.uppercase_text li {
 ------------------------------------------------------------------*/
 .footer {
     background: url(../../images/background/bg-nav-foot.png);
-    height: 135%;
+    height: 110%;
     font-weight: 500;
     text-align: center;
     padding: 20px 0 0;
@@ -1544,7 +1548,7 @@ ul.uppercase_text li {
 }
 
 .left-col .block {
-    width: 400px;
+    width: 100%;
     margin: 0 auto 35px;
 }
 
@@ -1553,27 +1557,28 @@ ul.uppercase_text li {
     width: 100%;
 }
 
-.left-col .left-col-bottom {
-    position: relative;
-    top: 5px;
-    width: 100%;
-    height: 199px;
-    clear: both;
-}
-
-.left-col .left-col-bottom .b-card,
-.left-col .left-col-bottom .b-brands {
+.left-col .b-card,
+.left-col .b-brands {
     width: 100%;
     height: 82px;
-    float: left;
 }
 
-.left-col-bottom .btn-left {
-    float: left;
+.left-col .b-brands .button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.left-col-bottom .btn-right {
-    float: right;
+.left-col .b-brands .button-group a {
+    text-decoration: none;
+    display: block;
+    width: 49%;
+}
+
+.left-col .b-brands .button-group .button {
+    width: 100%;
+    font-family: "Garamond", sans-serif;
+    text-transform: none;
 }
 
 .left-col p {
@@ -1756,12 +1761,12 @@ ul.uppercase_text li {
     margin: -4px 0 0;
     float: right;
     position: absolute;
-    top: 600px;
+    top: 360px;
     left: 0;
 }
 
 .right-col .block {
-    width: 33%;
+    width: 48%;
 }
 
 .right-col .block h6, .right-col .block li {
@@ -1831,11 +1836,10 @@ ul.uppercase_text li {
 
 .b-about, .b-privacy {
     width: 220px;
-    float: left;
+    float: right;
 }
 
 .b-about {
-    padding: 0 5.5% 0 3.5%;
     box-sizing: border-box;
 }
 
@@ -1881,7 +1885,7 @@ ul.uppercase_text li {
 }
 
 @media screen and (max-width: 600px) {
-    .button {
+    .button:not(.left-col .b-brands .button) {
         font-size: 20px !important;
     }
 
@@ -1999,6 +2003,7 @@ ul.uppercase_text li {
         display: block;
         border-top: 1px solid #676560;
     }
+
     .header .right-menu {
         margin: 0;
     }
@@ -2134,7 +2139,7 @@ ul.uppercase_text li {
     }
 
     .footer {
-        height: 140%;
+        height: 115%;
     }
 }
 
@@ -2291,7 +2296,7 @@ ul.uppercase_text li {
     }
 
     .footer {
-        height: 135% !important;
+        height: 110% !important;
     }
 
     .footer .content-top .title {
