@@ -1,0 +1,2022 @@
+<!DOCTYPE html>
+<html lang="ru" class="js csscalc supports generatedcontent no-touchevents no-overflowscrolling csstransforms csstransforms3d">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Котейня</title>
+    <link rel="dns-prefetch" href="https://ajax.googleapis.com/">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="https://s.w.org/">
+    <link rel="stylesheet" id="fp_res_jquery_ui_style-css" href="assets/css/jquery-ui.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="sb_instagram_styles-css" href="assets/css/sb-instagram.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="rs-plugin-settings-css" href="assets/css/settings.css" type="text/css" media="all">
+    <style id="rs-plugin-settings-inline-css" type="text/css">
+        #rs-demo-id {
+        }
+    </style>
+    <link rel="stylesheet" id="woocommerce-layout-css" href="assets/css/woocommerce-layout.css" type="text/css" media="all">
+    <style id="woocommerce-layout-inline-css" type="text/css">
+        ul.products li.product .wc-new-badge {
+            font-size: .75em;
+            text-transform: uppercase;
+            color: white;
+            background: #eb4649;
+            padding: .2em .5em;
+            display: inline-block;
+            font-weight: 700;
+            border-radius: 2px
+        }
+
+        ul.products li.product .stock {
+            display: block;
+            padding-top: .5em
+        }
+
+        ul.products li.product .stock.out-of-stock {
+            color: #eb4649
+        }
+
+        ul.products li.product .stock.in-stock {
+            color: #85ad74
+        }
+
+        ul.products li.product .categories {
+            display: block;
+            padding-top: .5em
+        }
+
+        ul.products li.product .categories a {
+            display: inline
+        }
+
+        @media screen and (min-width: 768px) {
+            .woocommerce.product-columns-2 ul.products li.product,
+            .woocommerce-page.product-columns-2 ul.products li.product {
+                width: 48%;
+                margin-right: 3.8%;
+            }
+
+            .woocommerce.product-columns-2 ul.products li.product.last,
+            .woocommerce-page.product-columns-2 ul.products li.product.last {
+                margin-right: 0;
+            }
+
+            .woocommerce.product-columns-3 ul.products li.product,
+            .woocommerce-page.product-columns-3 ul.products li.product {
+                width: 30.75%;
+                margin-right: 3.8%;
+            }
+
+            .woocommerce.product-columns-3 ul.products li.product.last,
+            .woocommerce-page.product-columns-3 ul.products li.product.last {
+                margin-right: 0;
+            }
+
+            .woocommerce.product-columns-4 ul.products li.product,
+            .woocommerce-page.product-columns-4 ul.products li.product {
+                width: 22.05%;
+                margin-right: 3.8%;
+            }
+
+            .woocommerce.product-columns-4 ul.products li.product.last,
+            .woocommerce-page.product-columns-4 ul.products li.product.last {
+                margin-right: 0;
+            }
+
+            .woocommerce.product-columns-5 ul.products li.product,
+            .woocommerce-page.product-columns-5 ul.products li.product {
+                width: 16.9%;
+                margin-right: 3.8%;
+            }
+
+            .woocommerce.product-columns-5 ul.products li.product.last,
+            .woocommerce-page.product-columns-5 ul.products li.product.last {
+                margin-right: 0;
+            }
+
+            .woocommerce.post-type-archive-product.wc-pac-hide-sale-flash .product .onsale,
+            .woocommerce.post-type-archive-product.wc-pac-hide-product-count .woocommerce-result-count,
+            .woocommerce.post-type-archive-product.wc-pac-hide-product-sorting .woocommerce-ordering,
+            .woocommerce.post-type-archive-product.wc-pac-hide-add-to-cart .product .add_to_cart_button,
+            .woocommerce.post-type-archive-product.wc-pac-hide-thumbnail .product .wp-post-image,
+            .woocommerce.post-type-archive-product.wc-pac-hide-price .product .price,
+            .woocommerce.post-type-archive-product.wc-pac-hide-rating .product .star-rating {
+                display: none;
+            }
+        }
+    </style>
+    <link rel="stylesheet" id="woocommerce-smallscreen-css" href="assets/css/woocommerce-smallscreen.css" type="text/css" media="only screen and (max-width: 768px)">
+    <link rel="stylesheet" id="woocommerce-general-css" href="assets/css/woocommerce.css" type="text/css" media="all">
+    <link rel="stylesheet" id="megamenu-css" href="assets/css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="dashicons-css" href="assets/css/dashicons.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="fp_font_icons-css" href="assets/css/font-awesome.css" type="text/css" media="all">
+    <link rel="stylesheet" id="fp_fonts-css" href="assets/css/fp_fonts.css" type="text/css" media="all">
+    <link rel="stylesheet" id="fp_default-css" href="assets/css/foodpress_styles.css" type="text/css" media="all">
+    <link rel="stylesheet" id="foodpress_dynamic_styles-css" href="assets/css/foodpress_dynamic_styles.css" type="text/css" media="all">
+    <link rel="stylesheet" id="fp_res_timepicker_style-css" href="assets/css/jquery.timepicker.css" type="text/css" media="all">
+    <link rel="stylesheet" id="fp_res_intl_phone_input-css" href="assets/css/intlTelInput.css" type="text/css" media="all">
+    <link rel="stylesheet" id="front-all-css" href="assets/css/mock.css" type="text/css" media="all">
+    <style id="front-all-inline-css" type="text/css">
+        @font-face {
+            font-family: 'icomoon';
+            src: url(assets/fonts/icons.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'theme';
+            src: url(assets/fonts/theme-icons.ttf) format('truetype'),
+            url(assets/fonts/theme-icons.woff) format('woff'),
+            url(assets/fonts/theme-icons.svg) format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" id="cubeportfolio-css" href="assets/css/cubeportfolio.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="vamtam-mocked-header-standard.css-css" href="assets/css/header-standard.css" type="text/css" media="all">
+    <link rel="stylesheet" id="sharedaddy-css" href="assets/css/sharing.css" type="text/css" media="all">
+    <link rel="stylesheet" id="social-logos-css" href="assets/css/social-logos.min.css" type="text/css" media="all">
+    <link rel="shortlink" href="https://cathouse.ua">
+    <noscript>&lt;style&gt;.woocommerce-product-gallery{ opacity: 1 !important; }&lt;/style&gt;</noscript>
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Котейня">
+    <meta property="og:url" content="https://cathouse.ua">
+    <meta property="og:description" content="Узнать больше в статье">
+    <meta property="article:published_time" content="2016-06-23T12:07:22+00:00">
+    <meta property="article:modified_time" content="2016-10-23T22:57:01+00:00">
+    <meta property="og:site_name" content="Котейня">
+    <meta property="og:image" content="assets/img/coffee-photo-5.jpg">
+    <meta property="og:locale" content="ru">
+    <meta name="twitter:site" content="@cathouse">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="Узнать больше в статье">
+    <link rel="icon" href="favicon.ico" sizes="32x32">
+    <link rel="icon" href="favicon.ico" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="favicon.ico">
+    <meta name="msapplication-TileImage" content="favicon.ico">
+    <script type="text/javascript" src="assets/js/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="assets/js/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="assets/js/revolution.extension.parallax.min.js"></script>
+    <script src="assets/js/TweenLite.min.js"></script>
+    <script src="assets/js/TimelineLite.min.js"></script>
+    <script src="assets/js/CSSPlugin.min.js"></script>
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/EasePack.min.js"></script>
+    <script type="text/javascript">
+        function setREVStartSize(e) {
+            try {
+                var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
+                if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)}), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
+                    var u = (e.c.width(), jQuery(window).height());
+                    if (void 0 != e.fullScreenOffsetContainer) {
+                        var c = e.fullScreenOffsetContainer.split(",");
+                        if (c) jQuery.each(c, function (e, i) {u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u}), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+                    }
+                    f = u
+                } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
+                e.c.closest(".rev_slider_wrapper").css({height: f})
+            } catch (d) {
+                console.log("Failure at Presize of Slider:" + d)
+            }
+        }
+    </script>
+    <style type="text/css">/** Mega Menu CSS Disabled **/</style>
+    <link rel="stylesheet" href="assets/css">
+    <style type="text/css"></style>
+    <style type="text/css">
+        /*.lleo_errorSelection *::-moz-selection,
+        .lleo_errorSelection *::selection,
+        .lleo_errorSelection *::-webkit-selection {
+            background-color: red !important;
+            color: #fff !important;;
+        }*/
+
+        #lleo_dialog,
+        #lleo_dialog * {
+            color: #000 !important;
+            font: normal 13px Arial, Helvetica !important;
+            line-height: 15px !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            background: none !important;
+            border: none 0 !important;
+            position: static !important;
+            vertical-align: baseline !important;
+            overflow: visible !important;
+            width: auto !important;
+            height: auto !important;
+            max-width: none !important;
+            max-height: none !important;
+            float: none !important;
+            visibility: visible !important;
+            text-align: left !important;
+            text-transform: none !important;
+            border-collapse: separate !important;
+            border-spacing: 2px !important;
+            box-sizing: content-box !important;
+            box-shadow: none !important;
+            opacity: 1 !important;
+            text-shadow: none !important;
+            letter-spacing: normal !important;
+            -webkit-filter: none !important;
+            -moz-filter: none !important;
+            filter: none !important;
+        }
+
+        #lleo_dialog *:before,
+        #lleo_dialog *:after {
+            content: '';
+        }
+
+        #lleo_dialog iframe {
+            height: 0 !important;
+            width: 0 !important;
+        }
+
+        #lleo_dialog {
+            position: absolute !important;
+            background: #fff !important;
+            border: solid 1px #ccc !important;
+            padding: 7px 0 0 !important;
+            left: -999px;
+            top: -999px;
+            width: 440px !important;
+            overflow: hidden;
+            display: block !important;
+            z-index: 999999999 !important;
+            box-shadow: 8px 16px 30px rgba(0, 0, 0, 0.16) !important;
+            border-radius: 3px !important;
+            opacity: 0 !important;
+            -webkit-transform: translateY(15px);
+            -moz-transform: translateY(15px);
+            -ms-transform: translateY(15px);
+            -o-transform: translateY(15px);
+            transform: translateY(15px);
+        }
+
+        #lleo_dialog.lleo_show_small {
+            width: 150px !important;
+        }
+
+        #lleo_dialog.lleo_show {
+            opacity: 1 !important;
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+            transform: translateY(0);
+            -webkit-transition: -webkit-transform 0.3s, opacity 0.3s !important;
+            -moz-transition: -moz-transform 0.3s, opacity 0.3s !important;
+            -ms-transition: -ms-transform 0.3s, opacity 0.3s !important;
+            -o-transition: -o-transform 0.3s, opacity 0.3s !important;
+            transition: transform 0.3s, opacity 0.3s !important;
+        }
+
+        #lleo_dialog.lleo_collapse {
+            opacity: 0 !important;
+            -webkit-transform: scale(0.25, 0.1) translate(-550px, 100px);
+            -moz-transform: scale(0.25, 0.1) translate(-550px, 100px);
+            -ms-transform: scale(0.25, 0.1) translate(-550px, 100px);
+            -o-transform: scale(0.25, 0.1) translate(-550px, 100px);
+            transform: scale(0.25, 0.1) translate(-550px, 100px);
+            -webkit-transition: -webkit-transform 0.4s, opacity 0.4s !important;
+            -moz-transition: -moz-transform 0.4s, opacity 0.4s !important;
+            -ms-transition: -ms-transform 0.4s, opacity 0.4s !important;
+            -o-transition: -o-transform 0.4s, opacity 0.4s !important;
+            transition: transform 0.4s, opacity 0.4s !important;
+        }
+
+        #lleo_dialog input::-webkit-input-placeholder {
+            color: #aaa !important;
+        }
+
+        #lleo_dialog .lleo_has_pic #lleo_word {
+            margin-right: 80px !important;
+        }
+
+        #lleo_dialog #lleo_translationsContainer1 {
+            position: relative !important;
+        }
+
+        #lleo_dialog #lleo_translationsContainer2 {
+            padding: 7px 0 0 !important;
+            vertical-align: middle !important;
+        }
+
+        #lleo_dialog #lleo_word {
+            color: #000 !important;
+            margin: 0 5px 2px 0 !important;
+            /*float: left !important;*/
+        }
+
+        #lleo_dialog .lleo_has_sound #lleo_word {
+            margin-left: 30px !important;
+        }
+
+        #lleo_dialog #lleo_text {
+            font-weight: bold !important;
+            color: #d56e00 !important;
+            text-decoration: none !important;
+            cursor: default !important;
+        }
+
+        /*
+        #lleo_dialog #lleo_text.lleo_known {
+            cursor: pointer !important;
+            text-decoration: underline !important;
+        }
+        */
+        /*#lleo_dialog #lleo_closeBtn {
+            position: absolute !important;
+            right: 6px !important;
+            top: 5px !important;
+            line-height: 1px !important;
+            text-decoration: none !important;
+            font-weight: bold !important;
+            font-size: 0 !important;
+            color: #aaa !important;
+            display: block !important;
+            z-index: 9999999999 !important;
+            width: 7px !important;
+            height: 7px !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }*/
+
+        #lleo_dialog #lleo_optionsBtn {
+            position: absolute !important;
+            right: 3px !important;
+            top: 5px !important;
+            line-height: 1px !important;
+            text-decoration: none !important;
+            font-weight: bold !important;
+            font-size: 13px !important;
+            color: #aaa !important;
+            padding: 2px !important;
+            display: none;
+        }
+
+        #lleo_dialog.lleo_optionsShown #lleo_optionsBtn {
+            display: block !important;
+        }
+
+        #lleo_dialog #lleo_optionsBtn img {
+            width: 12px !important;
+            height: 12px !important;
+        }
+
+        #lleo_dialog #lleo_sound {
+            float: left !important;
+            width: 16px !important;
+            height: 16px !important;
+            margin-left: 9px !important;
+            margin-right: 3px !important;
+            background: 0 0 no-repeat !important;
+            cursor: pointer !important;
+            display: none !important;
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfNJREFUeNq0U01IVFEU/u57Oo5WhBRIBBptykWLYBa2soWiEKQQEbrSFsGbVRQKQc2iFqGitXqvjQxCoCJCqyI0aBUtZILaJNUuYWYWo8HovJ/707nP94bnz0rxwvfOuefd8517fi5TSuE4i50YwZ3l37ZhNlpgzFkaaM/G9sHF1YskNrT+7l4PjMOcb78t2JL71uxgB+2UlfxHTtq5N94fIOh/88kWgWfl73ZCSQkpeGg3H091JY6dI2S00qA/N3KO3dDUYhFgEmZGurG+w9FqApIHsVM7kaTF9Nhn0r8Q7hPWQgIRuNaH3AMUA4W/Lkdh04cpFS43G0TgxQTvCdMETVAk3KynIHwXZU/ge8XDt7KH9bKLjU0P2zVO5LsEpSejVRJ9UR18EtfqKegovs9R3Q6w9c/H1o4Aa2Jwm1lIvn9RJ4w9RdRRzqcYrpwycCll4Cy1lnkS3Bc6vfBg28v8aRIfI78zhB/1GygROH3jLyyzMQ0zlUZuZBSlKkeLoegGtTjYLcJ8pF+NakHOFC2J6w+f25mxSfWrWFF/ShXVPTGvtN14NNkVnxlYWJkgZEL7/vwKr55lKSVnaGYWkuYgrgG172uUv47+U7fw0EHaJXmalUQy/HqO6lBzEsVjJC4Q8kd6TETQpjuaGOvjv8b/AgwA/ij1XMx58NIAAAAASUVORK5CYII=) !important;
+        }
+
+        #lleo_dialog .lleo_has_sound #lleo_sound {
+            display: block !important;
+        }
+
+        #lleo_dialog #lleo_soundWave {
+            border: solid 5px #4495CC !important;
+            border-radius: 5px !important;
+            position: absolute !important;
+            left: -5px !important;
+            top: -5px !important;
+            right: -5px !important;
+            bottom: -5px !important;
+            z-index: 0 !important;
+            opacity: 0.9 !important;
+            display: none !important;
+        }
+
+        #lleo_dialog #lleo_soundWave.lleo_beforePlaying {
+            display: block !important;
+        }
+
+        #lleo_dialog #lleo_soundWave.lleo_playing {
+            opacity: 0 !important;
+            border-width: 20px !important;
+            border-radius: 30px !important;
+
+            -webkit-transform: scale(1.07, 1.1) !important;
+            -moz-transform: scale(1.07, 1.1) !important;
+            -ms-transform: scale(1.07, 1.1) !important;
+            transform: scale(1.07, 1.1) !important;
+
+            -webkit-transition: all 0.6s !important;
+            -moz-transition: all 0.6s !important;
+            -ms-transition: all 0.6s !important;
+            transition: all 0.6s !important;
+        }
+
+        #lleo_dialog #lleo_picOuter {
+            position: absolute !important;
+            float: right !important;
+            top: 4px;
+            right: 5px;
+            z-index: 9 !important;
+            display: none !important;
+            width: 100px !important;
+        }
+
+        #lleo_dialog.lleo_optionsShown #lleo_picOuter {
+            right: 25px;
+        }
+
+        #lleo_dialog .lleo_has_pic #lleo_picOuter {
+            display: block !important;
+        }
+
+        #lleo_dialog #lleo_picOuter:hover {
+            width: auto !important;
+            z-index: 11 !important;
+        }
+
+        #lleo_dialog #lleo_pic,
+        #lleo_dialog #lleo_picBig {
+            position: absolute !important;
+            top: 0 !important;
+            right: 0 !important;
+            border: solid 2px #fff !important;
+            -webkit-border-radius: 2px !important;
+            -moz-border-radius: 2px !important;
+            border-radius: 2px !important;
+            z-index: 1 !important;
+        }
+
+        #lleo_dialog #lleo_pic {
+            position: relative !important;
+            border: none !important;
+            width: 30px !important;
+        }
+
+        #lleo_dialog #lleo_picBig {
+            box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.3);
+            z-index: 2 !important;
+            opacity: 0 !important;
+            visibility: hidden !important;
+        }
+
+        #lleo_dialog #lleo_picOuter:hover #lleo_picBig {
+            visibility: visible !important;
+            opacity: 1 !important;
+            -webkit-transition: opacity 0.3s !important;
+            -webkit-transition-delay: 0.3s !important;
+        }
+
+        #lleo_dialog #lleo_transcription {
+            margin: 0 80px 4px 31px !important;
+            color: #aaaaaa !important;
+        }
+
+        #lleo_dialog .lleo_no_trans {
+            color: #aaa !important;
+        }
+
+        #lleo_dialog .ll-translation-counter {
+            float: right !important;
+            font-size: 11px !important;
+            color: #aaa !important;
+            padding: 2px 2px 1px 10px !important;
+        }
+
+        #lleo_dialog .ll-translation-text {
+            float: left !important;
+            /*width: 80% !important;*/
+        }
+
+        #lleo_dialog #lleo_trans a {
+            color: #3F669F !important;
+            text-decoration: none !important;
+            text-overflow: ellipsis !important;
+            padding: 1px 4px !important;
+            overflow: hidden !important;
+            float: left !important;
+            width: 320px !important;
+        }
+
+        #lleo_dialog .ll-translation-item {
+            color: #3F669F !important;
+            border: solid 1px #fff !important;
+            padding: 3px !important;
+            width: 100% !important;
+            float: left !important;
+            -moz-border-radius: 2px !important;
+            -webkit-border-radius: 2px !important;
+            border-radius: 2px !important;
+        }
+
+        #lleo_dialog .ll-translation-item:hover {
+            border: solid 1px #9FC2C9 !important;
+            background: #EDF4F6 !important;
+            cursor: pointer !important;
+        }
+
+        #lleo_dialog .ll-translation-item:hover .ll-translation-counter {
+            color: #83a0a6 !important;
+        }
+
+        #lleo_dialog .ll-translation-marker {
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAWSURBVBhXY7RPm/+fAQkwIXNAbMICAJQ8AkvqWg/SAAAAAElFTkSuQmCC) !important;
+            display: inline-block !important;
+            width: 4px !important;
+            height: 4px !important;
+            margin: 7px 5px 2px 2px !important;
+            float: left !important;
+        }
+
+        #lleo_dialog #lleo_icons {
+            color: #aaa !important;
+            font-size: 11px !important;
+            background: #f8f8f8 !important;
+            padding: 10px 10px 10px 16px !important;
+        }
+
+        #lleo_icons a {
+            display: inline-block !important;
+            width: 16px !important;
+            height: 16px !important;
+            margin: 0 10px -4px 3px !important;
+            text-decoration: none !important;
+            opacity: 0.5 !important;
+            background: url(data:image/png;base64,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) !important;
+        }
+
+        #lleo_icons a:hover {
+            opacity: 1 !important;
+        }
+
+        #lleo_icons a.lleo_google {
+            background-position: -34px 0 !important;
+        }
+
+        #lleo_icons a.lleo_multitran {
+            background-position: -64px 0 !important;
+        }
+
+        #lleo_icons a.lleo_lingvo {
+            background-position: -51px 0 !important;
+            width: 12px !important;
+        }
+
+        #lleo_icons a.lleo_dict {
+            background-position: -17px 0 !important;
+        }
+
+        #lleo_icons a.lleo_linguee {
+            background-position: -81px 0 !important;
+        }
+
+        #lleo_icons a.lleo_michaelis {
+            background-position: -98px 0 !important;
+        }
+
+        #lleo_dialog #lleo_contextContainer {
+            margin: 0 !important;
+            padding: 3px 15px 8px 10px !important;
+            background: #eee !important;
+            background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee)) !important;
+            background: -moz-linear-gradient(-90deg, #fff, #eee) !important;
+            border-bottom: solid 1px #ddd !important;
+            border-top-left-radius: 3px !important;
+            border-top-right-radius: 3px !important;
+            display: none !important;
+            overflow: hidden !important;
+        }
+
+        #lleo_dialog .lleo_has_context #lleo_contextContainer {
+            display: block !important;
+        }
+
+        #lleo_dialog #lleo_context {
+            color: #444 !important;
+            text-shadow: 1px 1px 0 #f4f4f4 !important;
+            line-height: 12px !important;
+            font-size: 11px !important;
+            margin-left: 2px !important;
+        }
+
+        #lleo_dialog #lleo_context b {
+            line-height: 12px !important;
+            color: #000 !important;
+            font-weight: bold !important;
+            font-size: 11px !important;
+        }
+
+        /*#lleo_dialog #lleo_gBrand {
+            color: #aaa !important;
+            font-size: 10px !important;
+            *//*padding-right: 52px !important;*//*
+            padding-bottom: 14px !important;
+            margin: -3px 4px 0 4px !important;
+            background: left bottom url(data:image/png;base64,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) no-repeat !important;
+            display: inline-block !important;
+            float: right !important;
+        }
+        #lleo_dialog #lleo_gBrand.hidden {
+            display: none !important;
+        }*/
+        #lleo_dialog #lleo_translateContextLink {
+            color: #444 !important;
+            text-shadow: 1px 1px 0 #f4f4f4 !important;
+            background: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#ddd)) !important;
+            background: -moz-linear-gradient(-90deg, #f4f4f4, #ddd) !important;
+            border: solid 1px !important;
+            box-shadow: 1px 1px 0 #f6f6f6 !important;
+            border-color: #999 #aaa #aaa #999 !important;
+            -moz-border-radius: 2px !important;
+            -webkit-border-radius: 2px !important;
+            border-radius: 2px !important;
+            padding: 0 3px !important;
+            font-size: 11px !important;
+            text-decoration: none !important;
+            margin: 1px 5px 0 !important;
+            display: inline-block !important;
+            white-space: nowrap !important;
+        }
+
+        #lleo_dialog #lleo_translateContextLink:hover {
+            background: #f8f8f8 !important;
+        }
+
+        #lleo_dialog #lleo_translateContextLink.hidden {
+            visibility: hidden !important;
+        }
+
+        #lleo_dialog #lleo_setTransForm {
+            display: block !important;
+            margin-top: 3px !important;
+            padding-top: 5px !important;
+            /* Set position and background because the form might be overlapped by an image when no translations */
+            position: relative !important;
+            background: #fff !important;
+            z-index: 10 !important;
+            padding-bottom: 10px !important;
+            padding-left: 16px !important;
+        }
+
+        #lleo_dialog .lleo-custom-translation {
+            padding: 4px 5px !important;
+            border: solid 1px #ddd !important;
+            border-radius: 2px !important;
+            width: 90% !important;
+            min-width: 270px !important;
+            background: -webkit-gradient(linear, 0 0, 0 20, from(#f1f1f1), to(#fff)) !important;
+            background: -moz-linear-gradient(-90deg, #f1f1f1, #fff) !important;
+            font: normal 13px Arial, Helvetica !important;
+            line-height: 15px !important;
+        }
+
+        #lleo_dialog .lleo-custom-translation:hover {
+            border: solid 1px #aaa !important;
+        }
+
+        #lleo_dialog .lleo-custom-translation:focus {
+            background: #FFFEC9 !important;
+        }
+
+        #lleo_dialog *.hidden {
+            display: none !important;
+        }
+
+        #lleo_dialog .infinitive {
+            color: #D56E00 !important;
+            text-decoration: none;
+            border-bottom: 1px dotted #D56E00 !important;
+        }
+
+        #lleo_dialog .infinitive:hover {
+            border: none !important;
+        }
+
+        #lleo_dialog .lleo_separator {
+            height: 1px !important;
+            background: #eee;
+            margin-top: 10px !important;
+            background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, #eee 8%, rgba(255, 255, 255, 1) 80%) !important;
+            background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, #eee 8%, rgba(255, 255, 255, 1) 80%) !important;
+            background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, #eee 8%, rgba(255, 255, 255, 1) 80%) !important;
+            background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, #eee 8%, rgba(255, 255, 255, 1) 80%) !important;
+        }
+
+        #lleo_dialog #lleo_trans {
+            /*border-top: 1px solid #eeeeee !important;*/
+            padding: 5px 30px 0 14px !important;
+            zoom: 1;
+        }
+
+        #lleo_dialog .lleo_clearfix {
+            display: block !important;
+            clear: both !important;
+            visibility: hidden !important;
+            height: 0 !important;
+            font-size: 0 !important;
+        }
+
+        #lleo_dialog #lleo_picOuter table {
+            width: 44px !important;
+            position: absolute !important;
+            right: 0 !important;
+            top: 0 !important;
+            vertical-align: middle !important;
+        }
+
+        #lleo_dialog #lleo_picOuter td {
+            width: 38px !important;
+            height: 38px !important;
+            /*border: 1px solid #eeeeee !important;*/
+            vertical-align: middle !important;
+            text-align: center !important;
+        }
+
+        #lleo_dialog #lleo_picOuter td div {
+            height: 38px !important;
+            overflow: hidden !important;
+        }
+
+        #lleo_dialog .lleo_empty {
+            margin: 0 5px 7px !important;
+        }
+
+        #lleo_youtubeExportBtn {
+            margin-left: 10px;
+            height: 24px;
+        }
+
+        #lleo_youtubeExportBtn i {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background: 0 0 url(https://d144fqpiyasmrr.cloudfront.net/plugins/all/images/i16.png) !important;
+        }
+
+        #lleo_youtubeExportBtn .yt-uix-button-content {
+            font-size: 12px;
+            line-height: 2px;
+        }
+
+        /*** Parsed Lyrics Content *****************************/
+
+        .lleo_lyrics tran {
+            background: transparent !important;
+            border-radius: 2px !important;
+            text-shadow: none !important;
+            cursor: pointer !important;
+        }
+
+        .lleo_lyrics tran:hover {
+            color: #fff !important;
+            background: #C77213 !important;
+            -webkit-transition: all 0.1s !important;
+            -moz-transition: all 0.1s !important;
+            -ms-transition: all 0.1s !important;
+            -o-transition: all 0.1s !important;
+            transition: all 0.1s !important;
+        }
+
+        .lleo_songName {
+            border: solid 1px #ffd47c;
+            background: #fff1c2;
+            border-radius: 2px;
+        }
+
+        .lleo_hidden_iframe {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body class="page-template-default page page-id-9982 mega-menu-one-page-menu mega-menu-menu-header full header-layout-standard pagination-load-more page-vertical-padding-bottom-only sticky-header-type-over has-page-header no-header-slider no-header-sidebars responsive-layout sticky-header sticky-footer layout-full vamtam-not-scrolled"
+      cz-shortcut-listen="true">
+<span id="top"></span>
+<div class="vamtam-splash-screen" style="display: none;">
+    <div class="vamtam-splash-screen-progress-wrapper"><img src="assets/img/koteynya_logo_black.svg"
+                                                            class="attachment-full size-full" alt=""
+                                                            data-attachment-id="11048"
+                                                            data-permalink="assets/img/koteynya_logo_black"
+                                                            data-orig-file="assets/img/koteynya_logo_black.svg"
+                                                            data-orig-size="" data-comments-opened="1"
+                                                            data-image-meta="[]" data-image-title="logo-dark"
+                                                            data-image-description=""
+                                                            data-medium-file="assets/img/koteynya_logo_black.svg"
+                                                            data-large-file="assets/img/koteynya_logo_black.svg">
+        <div class="vamtam-splash-screen-progress" style="width: 100%;"></div>
+    </div>
+</div>
+<div class="fixed-header-box sticky-header-state-reset"
+     style="height: 0px; position: fixed; top: 0px; left: 0px; width: 100%; will-change: transform;">
+    <header class="main-header layout-standard ">
+        <div class="first-row header-content-wrapper header-padding">
+            <div class="logo-wrapper loaded">
+                <div class="logo-tagline">
+                    <a href="index.html" title="Котейня" class="logo " style="min-width:0">
+                        <img src="assets/img/koteynya_logo_black.svg" alt="Котейня" class="normal-logo" style="">
+                        <img src="assets/img/koteynya_logo_white.svg" alt="Котейня" class="alternative-logo" style="">
+                    </a>
+                </div>
+                <div class="mobile-logo-additions">
+                    <a class="vamtam-cart-dropdown-link icon theme no-dropdown"
+                       href="https://vip-restaurant.vamtam.com/cart/">
+                        <span class="icon theme"></span>
+                        <span class="products cart-empty">0</span>
+                    </a>
+                    <button class="header-search icon vamtam-overlay-search-trigger"></button>
+                    <div id="vamtam-megamenu-main-menu-toggle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="second-row header-content-wrapper">
+            <div class="limit-wrapper header-padding">
+                <div class="second-row-columns">
+                    <div class="header-left">
+                    </div>
+                    <div class="header-center">
+                        <div id="menus">
+                            <nav id="main-menu">
+                                <a href="https://vip-restaurant.vamtam.com/reservation/#content" title="Skip to content"
+                                   class="visuallyhidden">Skip to content</a>
+                                <div id="mega-menu-wrap-menu-header" class="mega-menu-wrap">
+                                    <div class="mega-menu-toggle" tabindex="0">
+                                        <div class="mega-toggle-block mega-menu-toggle-block mega-toggle-block-right mega-toggle-block-1"
+                                             id="mega-toggle-block-1"></div>
+                                    </div>
+                                    <ul id="mega-menu-menu-header" class="mega-menu mega-menu-horizontal"
+                                        data-event="hover_intent" data-effect="slide" data-effect-speed="200"
+                                        data-second-click="go" data-document-click="collapse"
+                                        data-vertical-behaviour="accordion" data-breakpoint="900" data-unbind="true">
+                                        <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-current-menu-ancestor mega-current-menu-parent mega-current_page_parent mega-current_page_ancestor mega-align-bottom-left mega-menu-flyout mega-menu-item-11673"
+                                            id="mega-menu-item-11673"><a class="mega-menu-link"
+                                                                         href="index.html"
+                                                                         aria-haspopup="true" tabindex="0">Главная</a>
+                                        </li>
+                                        <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-7779"
+                                            id="mega-menu-item-7779"><a class="mega-menu-link"
+                                                                        href="about.html"
+                                                                        aria-haspopup="true" tabindex="0">О нас</a>
+                                            <ul class="mega-sub-menu" style="">
+                                                <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-7777"
+                                                    id="mega-menu-item-7777"><a class="mega-menu-link"
+                                                                                href="team.html">Команда</a>
+                                                </li>
+                                                <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-9643"
+                                                    id="mega-menu-item-9643"><a class="mega-menu-link"
+                                                                                href="guestbook.html">Гостевая книга</a>
+                                                </li>
+                                                <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-8026"
+                                                    id="mega-menu-item-8026"><a class="mega-menu-link"
+                                                                                href="faq.html">Вопросы</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-8021"
+                                            id="mega-menu-item-8021"><a class="mega-menu-link"
+                                                                        href="menu.html"
+                                                                        aria-haspopup="true" tabindex="0">Меню</a>
+                                        </li>
+                                        <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-10483"
+                                            id="mega-menu-item-10483"><a class="mega-menu-link"
+                                                                         href="reservation.html"
+                                                                         tabindex="0">Бронирование</a></li>
+                                        <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-7884"
+                                            id="mega-menu-item-7884"><a class="mega-menu-link"
+                                                                        href="gallery.html"
+                                                                        aria-haspopup="true" tabindex="0">Галерея</a>
+                                        </li>
+                                        <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-7885"
+                                            id="mega-menu-item-7885"><a class="mega-menu-link"
+                                                                        href="blog.html"
+                                                                        aria-haspopup="true" tabindex="0">Блог</a>
+                                        </li>
+                                        <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-megamenu mega-menu-item-9975"
+                                            id="mega-menu-item-9975"><a class="mega-menu-link"
+                                                                        href="shop.html"
+                                                                        tabindex="0">Магазин</a></li>
+                                        <li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-10213"
+                                            id="mega-menu-item-10213"><a class="mega-menu-link"
+                                                                         href="contact.html"
+                                                                         tabindex="0">Контакты</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="cart-dropdown">
+                            <div class="cart-dropdown-inner">
+                                <a class="vamtam-cart-dropdown-link icon theme"
+                                   href="shop.html">
+                                    <span class="icon theme"></span>
+                                    <span class="products cart-empty">0</span>
+                                </a>
+                                <div class="widget woocommerce widget_shopping_cart">
+                                    <div class="widget_shopping_cart_content">
+                                        <p class="woocommerce-mini-cart__empty-message">Корзинка скучает</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="search-wrapper">
+                            <button class="header-search icon vamtam-overlay-search-trigger"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+<div class="fixed-header-box sticky-header-state-reset hbox-filler" style="height: 0px; z-index: 1;"></div>
+<div id="page" class="main-container">
+    <div class="boxed-layout" style="">
+        <div class="pane-wrapper clearfix">
+            <div id="main-content" style="margin-bottom: 508px;">
+                <div id="sub-header" class="layout-full has-background has-text-shadow">
+                    <div class="meta-header"
+                         style="background-color:transparent;background-image:url(&#39;https://vip-restaurant.vamtam.com/wp-content/uploads/2016/07/section-title-bg-4.jpg&#39; );background-repeat:no-repeat;background-size:cover;background-attachment:scroll;">
+                        <div class="text-shadow" style="opacity: 0.3;"></div>
+                        <div class="limit-wrapper">
+                            <div class="meta-header-inside">
+                                <header class="page-header layout-centered  " data-progressive-animation="page-title">
+                                    <h1 style="color: rgb(255, 255, 255); opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);" itemprop="headline">Бронирование</h1>
+                                    <div class="page-header-line" style="opacity: 1; width: 120px; transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+                                    <div class="desc" style="color: rgb(255, 255, 255); opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                                        Забронируйте место сейчас
+                                    </div>
+                                </header>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="main" role="main" class="vamtam-main layout-full  ">
+                    <div class="row page-wrapper">
+                        <article id="post-9982" class="full post-9982 page type-page status-publish hentry">
+                            <div class="page-content">
+                                <div class="row ">
+                                    <div class="vamtam-grid grid-1-1  vamtam-first-level grid-1-1  first has-background extended no-extended-padding"
+                                         style="background-color:#F5F3F0;padding-top:0.05px;padding-bottom:40px;"
+                                         id="vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3">
+                                        <div class="limit-wrapper">
+                                            <div class="extended-column-inner">
+                                                <style>
+                                                    #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 p, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 em, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 h1, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 h2, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 h3, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 h4, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 h5, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 h6, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 h1 a:not(:hover), #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 h2 a:not(:hover), #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 h3 a:not(:hover), #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 h4 a:not(:hover), #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 h5 a:not(:hover), #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 h6 a:not(:hover), #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 .column-title, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 .sep-text h2.regular-title-wrapper, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 .text-divider-double, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 .sep-text .sep-text-line, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 .sep, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 .sep-2, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 .sep-3, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 .portfolio-filters .inner-wrapper .cbp-filter-item, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 .portfolio-filters .inner-wrapper .cbp-filter-item:hover, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 .portfolio-filters .inner-wrapper .cbp-filter-item.cbp-filter-item-active, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 td, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 th, #vamtam-column-165e0e04f1b6170da91d00e0c12fb3f3 caption {
+                                                        color: #272727;
+                                                    }
+                                                </style>
+                                                <div class="vamtam-blank-space  vamtam-hide-lowres" style="margin-bottom:-40px"></div>
+                                                <div class="row  has-nomargin-column">
+                                                    <div class="vamtam-grid grid-1-4  grid-1-4  first unextended no-extended-padding" style="padding-top: 0.05px; padding-bottom: 0.05px; min-height: 716px;"
+                                                         id="vamtam-column-83ad803db52625957893987f8b19207b"><p>
+                                                        &nbsp;</p></div>
+                                                    <div class="vamtam-grid grid-1-2  grid-1-2 vamtam-add-ornaments-all has-background unextended no-extended-padding"
+                                                         style="background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 10px; min-height: 716px;"
+                                                         id="vamtam-column-48d65650117248f1eb58e2a8e3e23c1c">
+                                                        <style>
+                                                            #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c p, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c em, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c h1, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c h2, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c h3, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c h4, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c h5, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c h6, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c h1 a:not(:hover), #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c h2 a:not(:hover), #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c h3 a:not(:hover), #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c h4 a:not(:hover), #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c h5 a:not(:hover), #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c h6 a:not(:hover), #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c .column-title, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c .sep-text h2.regular-title-wrapper, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c .text-divider-double, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c .sep-text .sep-text-line, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c .sep, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c .sep-2, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c .sep-3, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c .portfolio-filters .inner-wrapper .cbp-filter-item, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c .portfolio-filters .inner-wrapper .cbp-filter-item:hover, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c .portfolio-filters .inner-wrapper .cbp-filter-item.cbp-filter-item-active, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c td, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c th, #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c caption {
+                                                                color: #333;
+                                                            }
+
+                                                            #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c:before {
+                                                                background-color: #fff;
+                                                            }
+
+                                                            #vamtam-column-48d65650117248f1eb58e2a8e3e23c1c:after {
+                                                                background-color: #fff;
+                                                            }
+                                                        </style>
+                                                        <div class="row ">
+                                                            <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding"
+                                                                 style="padding-top:0.05px;padding-bottom:0.05px;"
+                                                                 id="vamtam-column-a3ab8a470052763ea2b045cecdda36f2"><p
+                                                                    style="text-align: center;">❈</p></div>
+                                                        </div>
+                                                        <div class="row ">
+                                                            <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding"
+                                                                 style="padding-top:0.05px;padding-bottom:0.05px;"
+                                                                 id="vamtam-column-5fc62f74aa9ab2032ce6284d2fdf3ae7">
+                                                                <div class="vamtam-tabs horizontal ui-tabs ui-widget ui-widget-content ui-corner-all"
+                                                                     id="tabs-1">
+                                                                    <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all"
+                                                                        role="tablist">
+                                                                        <li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active"
+                                                                            role="tab" tabindex="0"
+                                                                            aria-controls="tab-1-0-book-a-table"
+                                                                            aria-labelledby="ui-id-1"
+                                                                            aria-selected="true" aria-expanded="true"><a
+                                                                                href="reservation.html/#tab-1-0-book-a-table"
+                                                                                class="ui-tabs-anchor"
+                                                                                role="presentation" tabindex="-1"
+                                                                                id="ui-id-1"> <span class="title-text">Заказать столик</span></a>
+                                                                        </li>
+                                                                        <li class="ui-state-default ui-corner-top"
+                                                                            role="tab" tabindex="-1"
+                                                                            aria-controls="tab-1-1-events"
+                                                                            aria-labelledby="ui-id-2"
+                                                                            aria-selected="false" aria-expanded="false">
+                                                                            <a href="reservation.html/#tab-1-1-events"
+                                                                               class="ui-tabs-anchor"
+                                                                               role="presentation" tabindex="-1"
+                                                                               id="ui-id-2"> <span class="title-text">События</span></a>
+                                                                        </li>
+                                                                    </ul>
+                                                                    <div class="pane tab- ui-tabs-panel ui-widget-content ui-corner-bottom"
+                                                                         id="tab-1-0-book-a-table"
+                                                                         aria-labelledby="ui-id-1" role="tabpanel"
+                                                                         aria-hidden="false">
+                                                                        <div class="row ">
+                                                                            <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding"
+                                                                                 style="padding-top:0.05px;padding-bottom:0.05px;"
+                                                                                 id="vamtam-column-ff55c24a29e15e09314572430ed273b6">
+                                                                                <p>
+
+                                                                                </p>
+                                                                                <div id="fp_make_res"
+                                                                                     class="fp_make_res onpage"
+                                                                                     data-lang="L1" data-type="onpage"
+                                                                                     data-vald="0" data-blk24="0"
+                                                                                     data-redirect="no">
+                                                                                    <div class="inside">
+                                                                                        <a id="fp_close"><i
+                                                                                                class="fa fa-times"></i></a>
+                                                                                        <h2 class="title">Забронировать сейчас</h2>
+                                                                                        <p class="subtitle">Для дальнейших вопросов, пожалуйста, позвоните</p>
+                                                                                        <p class="divider"></p>
+                                                                                        <div class="reservation_section">
+                                                                                            <div class="fpres_form_datetime form_section_1 step"
+                                                                                                 data-format="12"
+                                                                                                 data-restrict="no"
+                                                                                                 data-start="1:00am"
+                                                                                                 data-end="1:00am"
+                                                                                                 data-incre="1"
+                                                                                                 data-dateformat="yy/mm/dd">
+                                                                                                <p class="date"><span>Дата</span><input
+                                                                                                        class="resinput req fp_res_short_input fp_res_input_icon_calendar hasDatepicker"
+                                                                                                        type="text"
+                                                                                                        name="date"
+                                                                                                        size="30"
+                                                                                                        value=""
+                                                                                                        id="fp_res_date"
+                                                                                                        placeholder="Выбрать дату"
+                                                                                                        autocomplete="off"
+                                                                                                        data-unres="no"
+                                                                                                        readonly="true"><em
+                                                                                                        id="fp_unres"
+                                                                                                        style="display:none"></em>
+                                                                                                </p>
+                                                                                                <p class="time"
+                                                                                                   data-type=""><span>Время</span>
+                                                                                                    <select name="time"
+                                                                                                            class="fpres_time_range resinput req fp_res_short_input fp_res_input_icon_clock"
+                                                                                                            id="fp_res_time">
+                                                                                                        <option value="9:00">
+                                                                                                            9:00
+                                                                                                        </option>
+                                                                                                        <option value="10:00">
+                                                                                                            10:00
+                                                                                                        </option>
+                                                                                                        <option value="11:00">
+                                                                                                            11:00
+                                                                                                        </option>
+                                                                                                        <option value="12:00">
+                                                                                                            12:00
+                                                                                                        </option>
+                                                                                                        <option value="13:00">
+                                                                                                            13:00
+                                                                                                        </option>
+                                                                                                        <option value="14:00">
+                                                                                                            14:00
+                                                                                                        </option>
+                                                                                                        <option value="15:00">
+                                                                                                            15:00
+                                                                                                        </option>
+                                                                                                        <option value="16:00">
+                                                                                                            16:00
+                                                                                                        </option>
+                                                                                                        <option value="17:00">
+                                                                                                            17:00
+                                                                                                        </option>
+                                                                                                        <option value="18:00">
+                                                                                                            18:00
+                                                                                                        </option>
+                                                                                                        <option value="19:00">
+                                                                                                            19:00
+                                                                                                        </option>
+                                                                                                        <option value="20:00">
+                                                                                                            20:00
+                                                                                                        </option>
+                                                                                                        <option value="21:00">
+                                                                                                            21:00
+                                                                                                        </option>
+                                                                                                        <option value="22:00">
+                                                                                                            22:00
+                                                                                                        </option>
+                                                                                                        <option value="23:00">
+                                                                                                            23:00
+                                                                                                        </option>
+                                                                                                    </select>
+                                                                                                </p>
+                                                                                                <p class="size"><span>Количество людей</span>
+                                                                                                    <input class="resinput req fp_res_short_input"
+                                                                                                           type="text"
+                                                                                                           name="party"
+                                                                                                           placeholder="Qty"
+                                                                                                           value="1"
+                                                                                                           id="fp_res_people"
+                                                                                                           autocomplete="off">
+                                                                                                </p>
+                                                                                                <div class="clear"></div>
+                                                                                            </div>
+                                                                                            <p class="divider"></p>
+                                                                                            <div class="form_section_2">
+                                                                                                <p>
+                                                                                                    <label for="">Ваше Имя</label>
+                                                                                                    <input type="text"
+                                                                                                           name="name"
+                                                                                                           class="resinput req"
+                                                                                                           placeholder="Ваше Имя">
+                                                                                                </p>
+                                                                                                <p>
+                                                                                                    <label for="">Email Адрес</label>
+                                                                                                    <input type="text"
+                                                                                                           name="email"
+                                                                                                           class="resinput req"
+                                                                                                           placeholder="Email Адрес">
+                                                                                                </p>
+                                                                                                <a id="fp_reservation_submit"
+                                                                                                   class="reserve-submit fp_reservation_submit">Забронировать</a>
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                        <div class="form_message">
+                                                                                            <p class="error"
+                                                                                               style="display:none">
+                                                                                                Error Message</p>
+                                                                                            <div class="fp_res_success">
+                                                                                                <div class="fp_res_success_icon"></div>
+                                                                                                <div class="fp_res_success_title">
+                                                                                                    <span class="name"></span>
+                                                                                                    Отлично! Мы получили вашу бронь.
+                                                                                                </div>
+                                                                                                <p class="reservation_info">
+                                                                                                    Информация о бронировании<span></span>
+                                                                                                </p>
+                                                                                                <div class="fp_res_success_message">
+                                                                                                    If there are any
+                                                                                                    issues with this
+                                                                                                    reservation we will
+                                                                                                    give you a call.
+                                                                                                    Otherwise, we look
+                                                                                                    forward to seeing
+                                                                                                    you soon!
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div id="fpres_form_msg"
+                                                                                                 class="fpres_form_msg"
+                                                                                                 style="display:none">
+                                                                                                {"succ_m":"Posted
+                                                                                                successfully","err":"Required
+                                                                                                fields
+                                                                                                missing","err2":"Invalid
+                                                                                                email
+                                                                                                address","err3":"Invalid
+                                                                                                phone
+                                                                                                number","err4":"Could
+                                                                                                not create new
+                                                                                                reservation. Please try
+                                                                                                again
+                                                                                                later","err5":"Validation
+                                                                                                code does not match,
+                                                                                                please try
+                                                                                                again!","res2":"Date","res3":"Time","res4":"Party
+                                                                                                Size"}
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p></p></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="pane tab- ui-tabs-panel ui-widget-content ui-corner-bottom"
+                                                                         id="tab-1-1-events" aria-labelledby="ui-id-2"
+                                                                         role="tabpanel" aria-hidden="true"
+                                                                         style="display: none;">
+                                                                        <div class="row ">
+                                                                            <div class="vamtam-grid grid-1-1  grid-1-1  first has-horizontal-padding unextended no-extended-padding"
+                                                                                 style="padding-top:0.05px;padding-bottom:0.05px;padding-left:55px;padding-right:55px;"
+                                                                                 id="vamtam-column-3e11eac42066618d7c8cab1379fb6e3d">
+                                                                                <div class="row ">
+                                                                                    <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding"
+                                                                                         style="padding-top:0.05px;padding-bottom:0.05px;"
+                                                                                         id="vamtam-column-f228460ebcf3777b5692b47be0af704a">
+                                                                                        <p>
+                                                                                            <img data-attachment-id="11667"
+                                                                                                 data-orig-size=""
+                                                                                                 data-comments-opened="1"
+                                                                                                 data-image-meta="[]"
+                                                                                                 data-image-title="open-table-logo"
+                                                                                                 data-image-description=""
+                                                                                                 class="aligncenter size-large wp-image-11667"
+                                                                                                 src="assets/img/open-table-logo.svg"
+                                                                                                 alt="open-table-logo">
+                                                                                        </p></div>
+                                                                                </div>
+                                                                                <div class="vamtam-blank-space "
+                                                                                     style="height:40px"></div>
+                                                                                <div class="row ">
+                                                                                    <div class="vamtam-grid grid-1-1 vamtam-add-ornaments-all grid-1-1  first has-background has-horizontal-padding unextended no-extended-padding"
+                                                                                         style="background-color:#C93642;padding-top:40px;padding-bottom:40px;padding-left:45px;padding-right:45px;"
+                                                                                         id="vamtam-column-af7579681bc288037df5e2ee58b3af68">
+                                                                                        <style>
+                                                                                            #vamtam-column-af7579681bc288037df5e2ee58b3af68, #vamtam-column-af7579681bc288037df5e2ee58b3af68 p, #vamtam-column-af7579681bc288037df5e2ee58b3af68 em, #vamtam-column-af7579681bc288037df5e2ee58b3af68 h1, #vamtam-column-af7579681bc288037df5e2ee58b3af68 h2, #vamtam-column-af7579681bc288037df5e2ee58b3af68 h3, #vamtam-column-af7579681bc288037df5e2ee58b3af68 h4, #vamtam-column-af7579681bc288037df5e2ee58b3af68 h5, #vamtam-column-af7579681bc288037df5e2ee58b3af68 h6, #vamtam-column-af7579681bc288037df5e2ee58b3af68 h1 a:not(:hover), #vamtam-column-af7579681bc288037df5e2ee58b3af68 h2 a:not(:hover), #vamtam-column-af7579681bc288037df5e2ee58b3af68 h3 a:not(:hover), #vamtam-column-af7579681bc288037df5e2ee58b3af68 h4 a:not(:hover), #vamtam-column-af7579681bc288037df5e2ee58b3af68 h5 a:not(:hover), #vamtam-column-af7579681bc288037df5e2ee58b3af68 h6 a:not(:hover), #vamtam-column-af7579681bc288037df5e2ee58b3af68 .column-title, #vamtam-column-af7579681bc288037df5e2ee58b3af68 .sep-text h2.regular-title-wrapper, #vamtam-column-af7579681bc288037df5e2ee58b3af68 .text-divider-double, #vamtam-column-af7579681bc288037df5e2ee58b3af68 .sep-text .sep-text-line, #vamtam-column-af7579681bc288037df5e2ee58b3af68 .sep, #vamtam-column-af7579681bc288037df5e2ee58b3af68 .sep-2, #vamtam-column-af7579681bc288037df5e2ee58b3af68 .sep-3, #vamtam-column-af7579681bc288037df5e2ee58b3af68 .portfolio-filters .inner-wrapper .cbp-filter-item, #vamtam-column-af7579681bc288037df5e2ee58b3af68 .portfolio-filters .inner-wrapper .cbp-filter-item:hover, #vamtam-column-af7579681bc288037df5e2ee58b3af68 .portfolio-filters .inner-wrapper .cbp-filter-item.cbp-filter-item-active, #vamtam-column-af7579681bc288037df5e2ee58b3af68 td, #vamtam-column-af7579681bc288037df5e2ee58b3af68 th, #vamtam-column-af7579681bc288037df5e2ee58b3af68 caption {
+                                                                                                color: #fff;
+                                                                                            }
+
+                                                                                            #vamtam-column-af7579681bc288037df5e2ee58b3af68:before {
+                                                                                                background-color: #c93642;
+                                                                                            }
+
+                                                                                            #vamtam-column-af7579681bc288037df5e2ee58b3af68:after {
+                                                                                                background-color: #c93642;
+                                                                                            }
+                                                                                        </style>
+                                                                                        <div class="row ">
+                                                                                            <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding"
+                                                                                                 style="padding-top:0.05px;padding-bottom:0.05px;"
+                                                                                                 id="vamtam-column-17b1238f2633a89cc5341b9b5d92b40c">
+                                                                                                <p style="text-align: center;">
+                                                                                                    Unique experiences
+                                                                                                    tailored to your
+                                                                                                    needs, from cosy
+                                                                                                    private parties to
+                                                                                                    extravagant
+                                                                                                    weddings.<br>
+                                                                                                    To plan an event
+                                                                                                    please use a form on
+                                                                                                    this page</p>
+                                                                                                <p class="textcenter"><a
+                                                                                                        href="http://www.opentable.com/sonoma-wine-garden-santa-monica?p=2"
+                                                                                                        target="_blank"
+                                                                                                        style="font-size: 14px;"
+                                                                                                        class="vamtam-button accent5  button-filled hover-accent6 "><span
+                                                                                                        class="btext"
+                                                                                                        data-text="Book now">Заказать сейчас</span></a>
+                                                                                                </p></div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <style>
+                                                                    #tabs-1 .ui-tabs-nav li, #tabs-1 .ui-tabs-nav li a, #tabs-1 .ui-tabs-nav li a .icon {
+                                                                        color: #000;
+                                                                    }
+
+                                                                    #tabs-1 .ui-tabs-nav .ui-state-active, #tabs-1 .ui-tabs-nav .ui-state-selected, #tabs-1 .ui-tabs-nav .ui-state-hover {
+                                                                        background: transparent;
+                                                                    }
+
+                                                                    #tabs-1 .ui-tabs-nav .ui-state-active, #tabs-1 .ui-tabs-nav .ui-state-active a, #tabs-1 .ui-tabs-nav .ui-state-active a .icon, #tabs-1 .ui-tabs-nav .ui-state-selected, #tabs-1 .ui-tabs-nav .ui-state-selected a, #tabs-1 .ui-tabs-nav .ui-state-selected a .icon, #tabs-1 .ui-tabs-nav .ui-state-hover, #tabs-1 .ui-tabs-nav .ui-state-hover a, #tabs-1 .ui-tabs-nav .ui-state-hover a .icon {
+                                                                        color: #89b649;
+                                                                    }
+
+                                                                    #tabs-1 .pane {
+                                                                        background: transparent;
+                                                                    }
+                                                                </style>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="vamtam-blank-space " style="height:60px"></div>
+                                                <div class="row ">
+                                                    <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding"
+                                                         style="padding-top:0.05px;padding-bottom:0.05px;"
+                                                         id="vamtam-column-8073a581a603123e059f6dda76f06e0d"><p
+                                                            style="text-align: center;">❈</p></div>
+                                                </div>
+                                                <div class="vamtam-blank-space  vamtam-hide-lowres"
+                                                     style="height:60px"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vamtam-blank-space  vamtam-hide-lowres" style="margin-bottom:-40px"></div>
+                                <div class="limit-wrapper">
+                                    <div class="row  has-nomargin-column">
+                                        <div class="vamtam-grid grid-2-5  vamtam-first-level grid-2-5  first unextended no-extended-padding"
+                                             style="padding-top: 40px; padding-bottom: 60px; min-height: 858px;"
+                                             id="vamtam-column-4cce0b0557ef814ad77f289176f29922">
+                                            <div class="vamtam-blank-space  vamtam-hide-lowres"
+                                                 style="height:120px"></div>
+                                            <div class="row ">
+                                                <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding"
+                                                     style="padding-top:0.05px;padding-bottom:0.05px;"
+                                                     id="vamtam-column-7f573abd8c577904d71e288150e568b2"><h3
+                                                        style="text-align: center;">Музыкальные вечера</h3>
+                                                    <span class="vamtam-blank-space " style="height:5px"></span>
+                                                    <p style="text-align: center;"><img data-attachment-id="11668"
+                                                                                        data-orig-size="550,300"
+                                                                                        data-comments-opened="1"
+                                                                                        data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+                                                                                        data-image-title="resevation-1"
+                                                                                        data-image-description=""
+                                                                                        class="aligncenter size-full wp-image-11668"
+                                                                                        src="assets/img/resevation-1.jpg"
+                                                                                        alt="resevation-1" width="550"
+                                                                                        height="300">
+                                                    </p>
+                                                    <span class="vamtam-blank-space " style="height:5px"></span>
+                                                    <p>Opt for a more intimate approach to your next dining experience
+                                                        in one of our many private dining rooms, some even with
+                                                        unobstructed views into the kitchen. Whether you are a couple
+                                                        wishing to dine in privacy, business colleagues holding a
+                                                        meeting to impress clients, a birthday celebration or an
+                                                        intimate wedding party, we can help you.</p>
+                                                    <span class="vamtam-blank-space " style="height:10px"></span>
+                                                    <p style="text-align: center;">❈</p></div>
+                                            </div>
+                                        </div>
+                                        <div class="vamtam-grid grid-1-5  vamtam-first-level grid-1-5 vamtam-add-ornaments-all has-background unextended left-border no-extended-padding"
+                                             style="background-color: rgb(35, 40, 47); padding-top: 0.05px; padding-bottom: 40px; min-height: 858px;"
+                                             id="vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6">
+                                            <style>
+                                                #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 p, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 em, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 h1, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 h2, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 h3, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 h4, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 h5, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 h6, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 h1 a:not(:hover), #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 h2 a:not(:hover), #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 h3 a:not(:hover), #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 h4 a:not(:hover), #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 h5 a:not(:hover), #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 h6 a:not(:hover), #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 .column-title, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 .sep-text h2.regular-title-wrapper, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 .text-divider-double, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 .sep-text .sep-text-line, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 .sep, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 .sep-2, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 .sep-3, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 .portfolio-filters .inner-wrapper .cbp-filter-item, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 .portfolio-filters .inner-wrapper .cbp-filter-item:hover, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 .portfolio-filters .inner-wrapper .cbp-filter-item.cbp-filter-item-active, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 td, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 th, #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6 caption {
+                                                    color: #f5f5f5;
+                                                }
+
+                                                #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6:before {
+                                                    background-color: #23282f;
+                                                }
+
+                                                #vamtam-column-28afeb1dcd65fa73f3d7f33713804bd6:after {
+                                                    background-color: #23282f;
+                                                }
+                                            </style>
+                                            <div class="row ">
+                                                <div class="vamtam-grid grid-1-1  grid-1-1 vamtam-add-ornaments-all first has-background unextended no-extended-padding"
+                                                     style="background-color:#89b649;padding-top:20px;padding-bottom:20px;"
+                                                     id="vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3">
+                                                    <style>
+                                                        #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 p, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 em, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 h1, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 h2, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 h3, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 h4, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 h5, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 h6, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 h1 a:not(:hover), #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 h2 a:not(:hover), #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 h3 a:not(:hover), #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 h4 a:not(:hover), #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 h5 a:not(:hover), #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 h6 a:not(:hover), #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 .column-title, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 .sep-text h2.regular-title-wrapper, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 .text-divider-double, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 .sep-text .sep-text-line, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 .sep, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 .sep-2, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 .sep-3, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 .portfolio-filters .inner-wrapper .cbp-filter-item, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 .portfolio-filters .inner-wrapper .cbp-filter-item:hover, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 .portfolio-filters .inner-wrapper .cbp-filter-item.cbp-filter-item-active, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 td, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 th, #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3 caption {
+                                                            color: #fff;
+                                                        }
+
+                                                        #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3:before {
+                                                            background-color: #89b649;
+                                                        }
+
+                                                        #vamtam-column-4bc2e564b96b46c5aa92093f5d9cf3d3:after {
+                                                            background-color: #89b649;
+                                                        }
+                                                    </style>
+                                                    <div class="row ">
+                                                        <div class="vamtam-grid grid-1-1  grid-1-1  first unextended animation-fade-in animated-active no-extended-padding animation-ended"
+                                                             style="padding-top:0.05px;padding-bottom:0.05px;"
+                                                             id="vamtam-column-c3090f58a66a305560b4c289f29bb473"><p
+                                                                style="text-align: center;"><span
+                                                                class="icon shortcode theme  use-hover"
+                                                                style="color:#ffffff;font-size:120px !important;"></span>
+                                                            <span class="vamtam-blank-space "
+                                                                  style="margin-bottom:-10px"></span>
+                                                        </p>
+                                                            <h3 style="text-align: center;">Позвоните</h3>
+                                                            <h4 style="text-align: center;">+38(066) 313 6720</h4>
+                                                            <p style="text-align: center;">СДЕЛАЙТЕ ЗАПРОС СЕГОДНЯ</p>
+                                                            <p style="text-align: center;"><a
+                                                                    href="https://vip-restaurant.vamtam.com/reservation/#">
+                                                                <span class="icon shortcode theme  use-hover"
+                                                                      style="color:#ffffff;font-size:38px !important;"></span></a>
+                                                            </p>
+                                                            <p style="text-align: center;"><a
+                                                                    href="https://instagram.com"><span
+                                                                    class="icon shortcode   use-hover"
+                                                                    style="color:#ffffff;font-size:20px !important;"></span></a>&nbsp;
+                                                                <a href="https://facebook.com"><span
+                                                                        class="icon shortcode   use-hover"
+                                                                        style="color:#ffffff;font-size:20px !important;"></span></a>&nbsp;
+                                                                <a href="https://twitter.com"><span
+                                                                        class="icon shortcode   use-hover"
+                                                                        style="color:#ffffff;font-size:20px !important;"></span></a>
+                                                            </p>
+                                                            <p style="text-align: center;"></p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vamtam-blank-space " style="height:50px"></div>
+                                            <div class="row ">
+                                                <div class="vamtam-grid grid-1-1  grid-1-1  first unextended animation-fade-in animated-active no-extended-padding animation-ended"
+                                                     style="padding-top:0.05px;padding-bottom:0.05px;"
+                                                     id="vamtam-column-dbf033ce8f9c1d797dac5ae83806954b"><span
+                                                        class="vamtam-blank-space  vamtam-hide-lowres"
+                                                        style="height:30px"></span>
+                                                    <h5 style="text-align: center;">Время работы</h5>
+                                                    <p class="color-accent-4" style="text-align: center;">Будни<br>
+                                                        9:00  – 22:00<br>
+                                                        .<br>
+                                                        Выходные<br>
+                                                        9:00 – 24:00</p></div>
+                                            </div>
+                                        </div>
+                                        <div class="vamtam-grid grid-2-5  vamtam-first-level grid-2-5  unextended no-extended-padding"
+                                             style="padding-top: 40px; padding-bottom: 0.05px; min-height: 858px;"
+                                             id="vamtam-column-808d73d79bd0e1edd3d078c71542bc8f">
+                                            <div class="vamtam-blank-space  vamtam-hide-lowres"
+                                                 style="height:120px"></div>
+                                            <div class="row ">
+                                                <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding"
+                                                     style="padding-top:0.05px;padding-bottom:0.05px;"
+                                                     id="vamtam-column-9d3a267cd3634c8f51da82c4a32dc28a"><h3
+                                                        style="text-align: center;">Игровые конкурсы</h3>
+                                                    <span class="vamtam-blank-space " style="height:5px"></span>
+                                                    <p style="text-align: center;"><img data-attachment-id="11669"
+                                                                                        data-permalink="https://vip-restaurant.vamtam.com/reservation/resevation-2/"
+                                                                                        data-orig-file="https://vip-restaurant.vamtam.com/wp-content/uploads/2015/02/resevation-2.jpg"
+                                                                                        data-orig-size="550,300"
+                                                                                        data-comments-opened="1"
+                                                                                        data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+                                                                                        data-image-title="resevation-2"
+                                                                                        data-image-description=""
+                                                                                        data-medium-file="https://vip-restaurant.vamtam.com/wp-content/uploads/2015/02/resevation-2.jpg"
+                                                                                        data-large-file="https://vip-restaurant.vamtam.com/wp-content/uploads/2015/02/resevation-2.jpg"
+                                                                                        class="aligncenter size-full wp-image-11669"
+                                                                                        src="./Reservation_files/resevation-2.jpg"
+                                                                                        alt="resevation-2" width="550"
+                                                                                        height="300"
+                                                                                        srcset="https://vip-restaurant.vamtam.com/wp-content/uploads/2015/02/resevation-2.jpg 550w, https://vip-restaurant.vamtam.com/wp-content/uploads/2015/02/resevation-2-450x245.jpg 450w, https://vip-restaurant.vamtam.com/wp-content/uploads/2015/02/resevation-2-150x82.jpg 150w, https://vip-restaurant.vamtam.com/wp-content/uploads/2015/02/resevation-2-300x164.jpg 300w, https://vip-restaurant.vamtam.com/wp-content/uploads/2015/02/resevation-2-400x218.jpg 400w, https://vip-restaurant.vamtam.com/wp-content/uploads/2015/02/resevation-2-292x159.jpg 292w"
+                                                                                        sizes="(max-width: 550px) 100vw, 550px">
+                                                    </p>
+                                                    <span class="vamtam-blank-space " style="height:5px"></span>
+                                                    <p>Who doesn’t want their wedding day to be perfect? Many of us
+                                                        start planning our big day when we’re only little as we dream of
+                                                        finding that special somebody and celebrating our love with all
+                                                        our friends and family. To make your special day everything
+                                                        you’ve dreamed of, a lot of work goes into ensuring it all runs
+                                                        smoothly so you can concentrate on just sharing the day with
+                                                        your loved ones.</p>
+                                                    <span class="vamtam-blank-space " style="height:10px"></span>
+                                                    <p style="text-align: center;">❈</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="limit-wrapper">
+                                    <div class="row ">
+                                        <div class="vamtam-grid grid-1-1  vamtam-first-level grid-1-1  first vamtam-hide-lowres unextended no-extended-padding"
+                                             style="padding-top:60px;padding-bottom:10px;"
+                                             id="vamtam-column-868ba5767081d1200a06bbd13b8c54d0">
+                                            <div class="row ">
+                                                <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding"
+                                                     style="padding-top:0.05px;padding-bottom:0.05px;"
+                                                     id="vamtam-column-524385f4e43833bfb64b3c69ceeebc74"><p
+                                                        style="text-align: center;">❈</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="limit-wrapper">
+                                    <div class="row ">
+                                        <div class="vamtam-grid grid-1-6  vamtam-first-level grid-1-6  first vamtam-hide-lowres unextended no-extended-padding"
+                                             style="padding-top:0.05px;padding-bottom:0.05px;"
+                                             id="vamtam-column-754a92a5f81dbec6202224b84568518f">
+                                            <div class="row ">
+                                                <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding"
+                                                     style="padding-top:0.05px;padding-bottom:0.05px;"
+                                                     id="vamtam-column-3c41dd560bc0f9647f6e42284f2c66c2"><p>&nbsp;</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vamtam-grid grid-2-3  vamtam-first-level grid-2-3  unextended animation-fade-in animated-active no-extended-padding animation-ended"
+                                             style="padding-top:0.05px;padding-bottom:0.05px;"
+                                             id="vamtam-column-f5e8a2bebf404ed97a1eedb731308c09"><h4
+                                                style="text-align: center;">Награды</h4>
+                                            <p style="text-align: center;">In July 2006, Ramsay won the Catey award for
+                                                “Independent Restaurateur of the Year”, becoming only the third person
+                                                to have won three Catey awards.</p>
+                                            <span class="vamtam-blank-space " style="height:20px"></span>
+                                            <p style="text-align: center;"><img data-attachment-id="11666"
+                                                                                data-orig-size="647,107"
+                                                                                data-comments-opened="1"
+                                                                                data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+                                                                                data-image-title="award-logos-example"
+                                                                                data-image-description=""
+                                                                                class="aligncenter size-full wp-image-11666"
+                                                                                src="assets/img/award-logos-example.jpg"
+                                                                                alt="award-logos-example" width="647"
+                                                                                height="107">
+                                            </p></div>
+                                    </div>
+                                </div>
+                                <div class="limit-wrapper">
+                                    <div class="row ">
+                                        <div class="vamtam-grid grid-1-1  vamtam-first-level grid-1-1  first vamtam-hide-lowres unextended no-extended-padding"
+                                             style="padding-top:50px;padding-bottom:0.05px;"
+                                             id="vamtam-column-0353caf072be7412ac98920bcab1e706">
+                                            <div class="row ">
+                                                <div class="vamtam-grid grid-1-1  grid-1-1  first unextended animation-fade-in animated-active no-extended-padding animation-ended"
+                                                     style="padding-top:0.05px;padding-bottom:0.05px;"
+                                                     id="vamtam-column-6e6c63b091ff28d22e66386ab839ed44">
+                                                    <div id="TA_cdsratingsonlywide637" class="TA_cdsratingsonlywide">
+                                                        <img src="assets/img/seed.gif" alt="" width="0"
+                                                             height="0">
+                                                        <div id="CDSRATINGWIDGET637" class="cdsROW white    wide "
+                                                             style="width: 445px;">
+                                                            <div id="CDSROWCONTAINER637" class="cdsROWContainer"
+                                                                 style="width: auto;"> <!--[if lte IE 7]>
+                                                                <table border="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div id="CDSROWLOGO637"
+                                                                                 class="cdsComponent logo"><a
+                                                                                    target="_blank"
+                                                                                    href="https://www.tripadvisor.co.uk/"><img
+                                                                                    src="https://www.tripadvisor.co.uk/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png"
+                                                                                    alt="TripAdvisor"/></a></div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div id="CDSROWLOC637"
+                                                                                 class="cdsComponent cdsLocName"><a
+                                                                                    id="CDSLOCINNER" target="_blank"
+                                                                                    href="https://www.tripadvisor.co.uk/Restaurant_Review-g187803-d1160010-Reviews-Osteria_Francescana-Modena_Province_of_Modena_Emilia_Romagna.html"
+                                                                                    onclick="ta.cds.handleTALink($cdsConfig.getMcid()); return true;">Osteria
+                                                                                Francescana</a></div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div id="CDSROWRATING637"
+                                                                                 class="cdsComponent cdsRating"><span
+                                                                                    class="ui_bubble_rating bubble_45"></span>
+                                                                                <span>       1,887 Просмотров     </span>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>       <![endif]--> <!--[if gte IE 8]><!-->
+                                                                <div id="CDSROWLOGO637" class="cdsComponent logo"><a
+                                                                        target="_blank"
+                                                                        href="https://www.tripadvisor.co.uk/"><img
+                                                                        src="./Reservation_files/tripadvisor_logo_transp_340x80-18034-2.png"
+                                                                        alt="TripAdvisor"></a></div>
+                                                                <div id="CDSROWLOC637" class="cdsComponent cdsLocName"
+                                                                     style="max-width: 156px;"><a id="CDSLOCINNER"
+                                                                                                  target="_blank"
+                                                                                                  href="https://www.tripadvisor.co.uk/Restaurant_Review-g187803-d1160010-Reviews-Osteria_Francescana-Modena_Province_of_Modena_Emilia_Romagna.html"
+                                                                                                  onclick="ta.cds.handleTALink($cdsConfig.getMcid()); return true;"
+                                                                                                  rel="nofollow">Osteria
+                                                                    Francescana</a></div>
+                                                                <div id="CDSROWRATING637"
+                                                                     class="cdsComponent cdsRating"><span
+                                                                        class="ui_bubble_rating bubble_45"></span>
+                                                                    <span> 1,887 Просмотров </span></div> <!--<![endif]-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <p>
+                                                        <script src="assets/js/wejs.js"></script>
+                                                        <script src="assets/js/WidgetEmbed-cdsratingsonlywide.js"></script>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="limit-wrapper">
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-wrapper" style="bottom: 0;">
+                <footer class="main-footer vamtam-hide-bg-lowres"
+                        style="background-color:#23282f;background-image:none;">
+                    <div class="footer-sidebars-wrapper limit-wrapper">
+                        <div id="footer-sidebars" class="limit-wrapper">
+                            <div class="row">
+                                <aside class="cell-1-1 fit" data-id="1">
+                                    <section id="text-18" class="widget widget_text">
+                                        <div class="textwidget"><p><span class="vamtam-blank-space  vamtam-hide-lowres" style="height:50px"></span></p>
+                                            <h2 style="color: #89b649;">Котейня</h2>
+                                        </div>
+                                    </section>
+                                </aside>
+                            </div>
+                            <div class="row">
+                                <aside class="cell-1-3 fit" data-id="2" style="min-height: 205px;">
+                                    <section id="text-15" class="widget widget_text"><h4 class="widget-title">О нас</h4>
+                                        <div class="textwidget"><p>Osteria Francescana is a restaurant owned and run by
+                                            chef Massimo Bottura in Modena, Italy</p>
+                                            <p>
+                                                <a href="https://themeforest.net/item/restaurant-cafe-theme-for-restaurants-and-cafes/17965713?ref=vamtam"
+                                                   target="_self" style="font-size: 12px;"
+                                                   class="vamtam-button accent1  button-border hover-accent1 "><span
+                                                        class="btext" data-text="Buy this Delicious Theme"
+                                                        style="color:#ffffff">Buy this Delicious Theme</span></a></p>
+                                        </div>
+                                    </section>
+                                </aside>
+                                <aside class="cell-1-3 fit" data-id="3" style="min-height: 205px;">
+                                    <section id="text-22" class="widget widget_text"><h4 class="widget-title">Получить свежие предложения</h4>
+                                        <div class="textwidget">
+                                            <script src="assets/js/email-decode.min.js"></script>
+                                            <script type="text/javascript">
+                                                (function () {
+                                                    if (!window.mc4wp) {
+                                                        window.mc4wp = {
+                                                            listeners: [],
+                                                            forms: {
+                                                                on: function (event, callback) {
+                                                                    window.mc4wp.listeners.push({
+                                                                        event: event,
+                                                                        callback: callback
+                                                                    });
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                })();
+                                            </script>
+                                            <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-10372" method="post"
+                                                  data-id="10372" data-name="Subscribe for news">
+                                                <div class="mc4wp-form-fields"><a
+                                                        href="https://vip-restaurant.vamtam.com/#email-offers-form"
+                                                        style="display:none" class="vamtam-animated-page-scroll"
+                                                        title=""></a>
+                                                    <div class="email-offers" id="email-offers-form">
+                                                        <input type="email" name="EMAIL" placeholder="Ваша почта"
+                                                               required=""><input type="submit" value="Подписаться">
+                                                        <p>* Мы никогда не пришлем вам спам!</p>
+                                                    </div>
+                                                    <div style="display: none;"><input type="text"
+                                                                                       name="_mc4wp_honeypot" value=""
+                                                                                       tabindex="-1" autocomplete="off">
+                                                    </div>
+                                                    <input type="hidden" name="_mc4wp_timestamp"
+                                                           value="1509278986"><input type="hidden" name="_mc4wp_form_id"
+                                                                                     value="10372"><input type="hidden"
+                                                                                                          name="_mc4wp_form_element_id"
+                                                                                                          value="mc4wp-form-1">
+                                                </div>
+                                                <div class="mc4wp-response"></div>
+                                            </form>
+                                            <a href="https://vip-restaurant.vamtam.com/home-layouts/coffee-shop/#"><span
+                                                    class="icon shortcode theme  use-hover"
+                                                    style="color:#89b649;font-size:22px !important;"></span></a> <a
+                                                href="https://vip-restaurant.vamtam.com/home-layouts/coffee-shop/#">
+                                            <span class="icon shortcode   use-hover"
+                                                  style="color:#89b649;font-size:18px !important;"></span></a>&nbsp; <a
+                                                href="https://vip-restaurant.vamtam.com/home-layouts/coffee-shop/#"><span
+                                                class="icon shortcode   use-hover"
+                                                style="color:#89b649;font-size:18px !important;"></span></a>&nbsp; <a
+                                                href="https://vip-restaurant.vamtam.com/home-layouts/coffee-shop/#"><span
+                                                class="icon shortcode   use-hover"
+                                                style="color:#89b649;font-size:18px !important;"></span></a>&nbsp; <a
+                                                href="https://vip-restaurant.vamtam.com/home-layouts/coffee-shop/#"><span
+                                                class="icon shortcode   use-hover"
+                                                style="color:#89b649;font-size:18px !important;"></span></a>
+                                        </div>
+                                    </section>
+                                </aside>
+                                <aside class="cell-1-3 fit" data-id="4" style="min-height: 205px;">
+                                    <section id="text-21" class="widget widget_text">
+                                        <h4 class="widget-title">Контакты</h4>
+                                        <div class="textwidget"><p>ул. Котейная, 10<br>г. Днепр<br>
+                                            +38(066) 313 6720</p>
+                                            <p><a href="https://vip-restaurant.vamtam.com/home-layouts/coffee-shop/#">ask_cat@cathouse.ua</a>
+                                            </p>
+                                        </div>
+                                    </section>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="vamtam-overlay-search">
+    <button id="vamtam-overlay-search-close" style="display: none;"><span class="icon shortcode theme  use-hover"
+                                                                          style=""></span></button>
+    <form action="index.html" class="searchform" method="get" role="search" novalidate=""
+          style="display: none;">
+        <input type="search" required="required" placeholder="Найти..." name="s" value="">
+    </form>
+</div>
+<div id="scroll-to-top" class="icon"></div>
+<script src="./Reservation_files/email-decode.min.js.Без названия"></script>
+<script>VAMTAM_HIDDEN_WIDGETS = [];</script>
+<script type="text/javascript">(function () {
+    function addEventListener(element, event, handler) {
+        if (element.addEventListener) {
+            element.addEventListener(event, handler, false);
+        } else if (element.attachEvent) {
+            element.attachEvent('on' + event, handler);
+        }
+    }
+
+    function maybePrefixUrlField() {
+        if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+            this.value = "http://" + this.value;
+        }
+    }
+
+    var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+    if (urlFields && urlFields.length > 0) {
+        for (var j = 0; j < urlFields.length; j++) {
+            addEventListener(urlFields[j], 'blur', maybePrefixUrlField);
+        }
+    }
+    /* test if browser supports date fields */
+    var testInput = document.createElement('input');
+    testInput.setAttribute('type', 'date');
+    if (testInput.type !== 'date') {
+
+        /* add placeholder & pattern to all date fields */
+        var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+        for (var i = 0; i < dateFields.length; i++) {
+            if (!dateFields[i].placeholder) {
+                dateFields[i].placeholder = 'YYYY-MM-DD';
+            }
+            if (!dateFields[i].pattern) {
+                dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+            }
+        }
+    }
+
+})();</script>
+<link rel="stylesheet" id="jetpack-carousel-css" href="assets/js/jetpack-carousel.css" type="text/css"
+      media="all">
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'
+      href='https://vip-restaurant.vamtam.com/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel-ie8fix.css'
+      type='text/css' media='all'/>
+<![endif]-->
+<script type="text/javascript" src="assets/js/modernizr.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/jquery-migrate.min.js"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var sb_instagram_js_options = {"sb_instagram_at": "605502490.97584da.3f8e935048d744fcb46422b49602c3ef"};
+    /* ]]> */
+</script>
+<script type="text/javascript" src="assets/js/sb-instagram.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.themepunch.tools.min.js" defer="defer"></script>
+<script type="text/javascript" src="assets/js/jquery.themepunch.revolution.min.js" defer="defer"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var wc_add_to_cart_params = {
+        "ajax_url": "\/wp-admin\/admin-ajax.php",
+        "wc_ajax_url": "\/reservation\/?wc-ajax=%%endpoint%%",
+        "i18n_view_cart": "View cart",
+        "cart_url": "https:\/\/vip-restaurant.vamtam.com\/cart\/",
+        "is_cart": "",
+        "cart_redirect_after_add": "no"
+    };
+    /* ]]> */
+</script>
+<script type="text/javascript" src="assets/js/add-to-cart.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.blockUI.min.js"></script>
+<script type="text/javascript" src="assets/js/js.cookie.min.js"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var woocommerce_params = {
+        "ajax_url": "\/wp-admin\/admin-ajax.php",
+        "wc_ajax_url": "\/reservation\/?wc-ajax=%%endpoint%%"
+    };
+    /* ]]> */
+</script>
+<script type="text/javascript" src="assets/js/woocommerce.min.js"></script>
+<script type="text/javascript" src="assets/js/core.min.js"></script>
+<script type="text/javascript" src="assets/js/effect.min.js"></script>
+<script type="text/javascript" src="assets/js/widget.min.js"></script>
+<script type="text/javascript" src="assets/js/underscore.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.matchheight.min.js"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var VAMTAM_FRONT = {
+        "ajaxurl": "https:\/\/vip-restaurant.vamtam.com\/wp-admin\/admin-ajax.php",
+        "jspath": "https:\/\/vip-restaurant.vamtam.com\/wp-content\/themes\/vip-restaurant\/vamtam\/assets\/js\/"
+    };
+    /* ]]> */
+</script>
+<script type="text/javascript" src="assets/js/all.min.js"></script><!--ERROR-->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var wc_cart_fragments_params = {
+        "ajax_url": "\/wp-admin\/admin-ajax.php",
+        "wc_ajax_url": "\/reservation\/?wc-ajax=%%endpoint%%",
+        "fragment_name": "wc_fragments_d833cc1f4ced2c9b25dcc0a1097d45ec"
+    };
+    /* ]]> */
+</script>
+<script type="text/javascript" src="assets/js/cart-fragments.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.easypiechart.js"></script>
+<script type="text/javascript" src="assets/js/responsive-elements.js"></script>
+<script type="text/javascript" src="assets/js/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var VAMTAMSS = {
+        "uri": "https:\/\/vip-restaurant.vamtam.com\/wp-content\/themes\/vip-restaurant\/",
+        "config": {
+            "groups": [{
+                "name": "Styles",
+                "type": "buttons",
+                "action": "load_css",
+                "options": [{
+                    "color": "#CB7152",
+                    "width": 50,
+                    "height": 50,
+                    "name": "Orange",
+                    "url": "mock.php?skin=orange"
+                }, {
+                    "color": "#CD9B33",
+                    "width": 50,
+                    "height": 50,
+                    "name": "Gold",
+                    "url": "mock.php?skin=gold"
+                }, {
+                    "color": "#88B649",
+                    "width": 50,
+                    "height": 50,
+                    "name": "Green",
+                    "url": "mock.php?skin=green"
+                }, {"color": "#5FB1B2", "width": 50, "height": 50, "name": "Blue", "url": "mock.php?skin=blue"}]
+            }, {
+                "name": "Header Layout",
+                "type": "select",
+                "action": "load_css",
+                "options": [{
+                    "name": "Single Row",
+                    "url": "header-single-row.css",
+                    "options": {
+                        "header-height": 80,
+                        "header-layout": "logo-menu",
+                        "header-logo-type": "image",
+                        "header-text-main": ""
+                    }
+                }, {
+                    "name": "Logo - Left",
+                    "url": "header-logo-text-menu.css",
+                    "options": {"header-layout": "logo-text-menu", "enable-header-search": true, "header-height": 119}
+                }, {
+                    "name": "Logo - Centered",
+                    "url": "header-standard.css",
+                    "options": {
+                        "header-layout": "standard",
+                        "header-logo-type": "image",
+                        "header-text-main": "",
+                        "enable-header-search": false
+                    }
+                }]
+            }, {
+                "name": "Top Bar",
+                "type": "select",
+                "action": "load_css",
+                "options": [{
+                    "name": "Off",
+                    "url": "#top-bar-off",
+                    "options": {"top-bar-layout": ""}
+                }, {
+                    "name": "Menu, Social Icons",
+                    "url": "#top-bar-menu-social",
+                    "options": {"top-bar-layout": "menu-social"}
+                }, {
+                    "name": "Social Icons, Menu",
+                    "url": "#top-bar-social-menu",
+                    "options": {"top-bar-layout": "social-menu"}
+                }, {
+                    "name": "Social Icons, Text",
+                    "url": "#top-bar-social-text",
+                    "options": {"top-bar-layout": "social-text"}
+                }, {
+                    "name": "Text, Menu",
+                    "url": "#top-bar-text-menu",
+                    "options": {"top-bar-layout": "text-menu"}
+                }, {
+                    "name": "Menu, Text",
+                    "url": "#top-bar-menu-text",
+                    "options": {"top-bar-layout": "menu-text"}
+                }, {
+                    "name": "Text, Social Icons",
+                    "url": "#top-bar-text-social",
+                    "options": {"top-bar-layout": "text-social"}
+                }]
+            }, {
+                "name": "&nbsp;",
+                "type": "buttons",
+                "action": "load_css",
+                "options": [{"name": "Reset", "url": "clear_css|Styles|Layout|Header Layout|Top Bar"}]
+            }]
+        }
+    };
+    /* ]]> */
+</script>
+<script type="text/javascript" src="assets/js/datepicker.min.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function (jQuery) {
+        jQuery.datepicker.setDefaults({
+            "closeText": "Close",
+            "currentText": "Today",
+            "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+            "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            "nextText": "Next",
+            "prevText": "Previous",
+            "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+            "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
+            "dateFormat": "d M, yy",
+            "firstDay": 1,
+            "isRTL": false
+        });
+    });
+</script>
+<script type="text/javascript" src="assets/js/jquery.timepicker.js"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var fp_ajax_script = {"ajaxurl": "https:\/\/vip-restaurant.vamtam.com\/wp-admin\/admin-ajax.php"};
+    /* ]]> */
+</script>
+<script type="text/javascript" src="assets/js/foodpress_frontend.js"></script>
+<script type="text/javascript" src="assets/js/intlTelInput.min.js"></script>
+<script type="text/javascript" src="assets/js/intlTelInputUtils.js"></script>
+<script type="text/javascript" src="assets/js/hoverIntent.min.js"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var megamenu = {"timeout": "300", "interval": "100"};
+    /* ]]> */
+</script>
+<script type="text/javascript" src="assets/js/maxmegamenu.js"></script>
+<script type="text/javascript" src="assets/js/wp-embed.min.js"></script>
+<script type="text/javascript" src="assets/js/spin.js"></script>
+<script type="text/javascript" src="assets/js/jquery.spin.js"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var jetpackCarouselStrings = {
+        "widths": [370, 700, 1000, 1200, 1400, 2000],
+        "is_logged_in": "",
+        "lang": "en",
+        "ajaxurl": "https:\/\/vip-restaurant.vamtam.com\/wp-admin\/admin-ajax.php",
+        "nonce": "f0daeb9fe0",
+        "display_exif": "0",
+        "display_geo": "1",
+        "single_image_gallery": "1",
+        "single_image_gallery_media_file": "",
+        "background_color": "white",
+        "comment": "Comment",
+        "post_comment": "Post Comment",
+        "write_comment": "Write a Comment...",
+        "loading_comments": "Loading Comments...",
+        "download_original": "View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>",
+        "no_comment_text": "Please be sure to submit some text with your comment.",
+        "no_comment_email": "Please provide an email address to comment.",
+        "no_comment_author": "Please provide your name to comment.",
+        "comment_post_error": "Sorry, but there was an error posting your comment. Please try again later.",
+        "comment_approved": "Your comment was approved.",
+        "comment_unapproved": "Your comment is in moderation.",
+        "camera": "Camera",
+        "aperture": "Aperture",
+        "shutter_speed": "Shutter Speed",
+        "focal_length": "Focal Length",
+        "copyright": "Copyright",
+        "comment_registration": "0",
+        "require_name_email": "1",
+        "login_url": "https:\/\/vip-restaurant.vamtam.com\/wp-login.php?redirect_to=https%3A%2F%2Fvip-restaurant.vamtam.com%2Freservation%2F",
+        "blog_id": "1",
+        "meta_data": ["camera", "aperture", "shutter_speed", "focal_length", "copyright"],
+        "local_comments_commenting_as": "<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>"
+    };
+    /* ]]> */
+</script>
+<script type="text/javascript" src="assets/js/jetpack-carousel.js"></script>
+<script type="text/javascript" src="assets/js/tabs.min.js"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var mc4wp_forms_config = [];
+    /* ]]> */
+</script>
+<script type="text/javascript" src="assets/js/forms-api.min.js"></script>
+<!--[if lte IE 9]>
+<script type='text/javascript' src='assets/js/placeholders.min.js'></script>
+<![endif]-->
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>
+<span id="sbmarwbthv5"></span>
+<script charset="UTF-8" type="text/javascript">vkdId = 'gmakpjahbdpafpgbnnlhbgnjacdniaeb';</script>
+<script charset="UTF-8"
+        type="text/javascript">extensionsURL = 'chrome-extension://gmakpjahbdpafpgbnnlhbgnjacdniaeb/';</script>
+<script charset="UTF-8"
+        type="text/javascript">vkd_settings = JSON.parse('{"showBitrate":"showHover","landCode":"ru"}')</script>
+<script charset="UTF-8" type="text/javascript"
+        src="chrome-extension://gmakpjahbdpafpgbnnlhbgnjacdniaeb/assets/js/in_vk.js"></script>
+</body>
+</html>
