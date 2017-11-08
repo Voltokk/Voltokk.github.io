@@ -966,7 +966,7 @@
                                                      style="background-repeat: no-repeat; background-image: url('assets/img/cathouse_slider_1.jpg'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;"
                                                      src="assets/img/cathouse_slider_1.jpg"></div>
                                             </div>
-                                            <div class="tp-parallax-wrap"
+                                            <div id="first_row" class="tp-parallax-wrap"
                                                  style="position: absolute; display: block; visibility: visible; left: 749px; top: 337px; z-index: 5;">
                                                 <div class="tp-loop-wrap" style="position:absolute;display:block;;">
                                                     <div class="tp-mask-wrap"
@@ -989,7 +989,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="tp-parallax-wrap"
+                                            <div id="second_row" class="tp-parallax-wrap"
                                                  style="position: absolute; display: block; visibility: visible; left: 712px; top: 452px; z-index: 6;">
                                                 <div class="tp-loop-wrap" style="position:absolute;display:block;;">
                                                     <div class="tp-mask-wrap"
@@ -1012,7 +1012,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="tp-parallax-wrap"
+                                            <div id="third_row" class="tp-parallax-wrap"
                                                  style="position: absolute; display: block; visibility: visible; left: 912px; top: 550px; z-index: 7;">
                                                 <div class="tp-loop-wrap" style="position:absolute;display:block;;">
                                                     <div class="tp-mask-wrap"
@@ -1071,7 +1071,7 @@
                                              id="vamtam-column-2e9e60fb464e37c2b0f32047f7b294fa"
                                              data-parallax-method="to-centre" data-parallax-inertia="-0.2">
                                             <div class="vamtam-parallax-bg-wrapper">
-                                                <div class="vamtam-parallax-bg-img"
+                                                <div class="vamtam-parallax-bg-img mobile_hidden"
                                                      style="background-position: 50% 0; background-image: url('assets/img/coffee-img-4-1.jpg'); background-color: rgba(0, 0, 0, 0); background-size: auto; background-attachment: scroll; background-repeat: no-repeat; transform: matrix(1, 0, 0, 1, 0, -140.306);"></div>
                                             </div>
                                             <div class="vamtam-parallax-bg-content">
@@ -1172,18 +1172,15 @@
                                                         <span class="vamtam-blank-space " style="margin-bottom:-10px"></span>
                                                     </p>
                                                     <h3 style="text-align: center;">Завтрак</h3>
-                                                    <h5 class="vamtam-font-style-2 with-color" style="text-align: center;">Специальные предложения</h5>
+                                                    <h5 class="vamtam-font-style-2 with-color" style="text-align: center;">Сегодня в меню</h5>
                                                     <p style="text-align: center;"></p>
                                                     <div class="foodpress_menu fp_single_item_box">
                                                         <div class="fp_box menuItem c_100 normal_item fp_popTrig style_1" data-ux="lightbox" data-menuitem_id="11713" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class=""
                                                                     title="Cashew Chicken With Stir-Fry Vegetables &amp; Green Salad">
-                                                                    Cashew Chicken With Stir-Fry Vegetables &amp; Green
-                                                                    Salad<span class="fp_price">$22</span></h3>
-                                                                <div class="menu_description">Cashew Chicken With
-                                                                    Stir-Fry Vegetables served with green salad, sprouts
-                                                                    and stewed mushrooms.<a
+                                                                    Мяу сендвич с курочкой и салат с ананасами<span class="fp_price">58 грн</span></h3>
+                                                                <div class="menu_description">Свежая булочка, помидоры, огурцы, курица-гриль, листья салата, ананасы.<a
                                                                             class="fp_popTrig fp_inline_btn"
                                                                             data-menuitem_id="11713">Подробнее</a>
                                                                 </div>
@@ -1196,8 +1193,8 @@
                                                              data-ux="lightbox" data-menuitem_id="11712" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Optic Big Breakfast Combo Menu">
-                                                                    Optic Big Breakfast Combo Menu<span
-                                                                        class="fp_price">$20</span></h3>
+                                                                    Большой завтрак<span
+                                                                        class="fp_price">68 грн</span></h3>
                                                                 <div class="menu_description"><a
                                                                         class="fp_popTrig fp_inline_btn"
                                                                         data-menuitem_id="11712">Подробнее</a></div>
@@ -1211,12 +1208,9 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class=""
                                                                     title="Coffee and Pain au chocolat (Chocolate croissant) Combo Menu">
-                                                                    Coffee and Pain au chocolat (Chocolate croissant)
-                                                                    Combo Menu<span class="fp_price">$11</span></h3>
-                                                                <div class="menu_description">Hot coffee in the company
-                                                                    of Beautiful homemade croissants, each containing a
-                                                                    bar of high-quality dark chocolate, make for ...<a
-                                                                            class="fp_popTrig fp_inline_btn"
+                                                                    Кофе и круассан с шоколадом<span class="fp_price">28 грн</span></h3>
+                                                                <div class="menu_description">Горячий кофе в компании вкусных домашних круассанов, каждый из которых подарит Вам вкус настоящего черного шоколада.
+                                                                    <a class="fp_popTrig fp_inline_btn"
                                                                             data-menuitem_id="11711">Подробнее</a>
                                                                 </div>
                                                             </div>
@@ -1244,15 +1238,13 @@
                                                             <h3 style="text-align: center;">Счастливые часы</h3>
                                                             <h5 class="vamtam-font-style-2 with-color"
                                                                 style="text-align: center;">По будням</h5>
-                                                            <p style="text-align: center;">The restaurant will open at
-                                                                3pm for happy hour and dinner service starting at 5pm.
-                                                                We will continue to offer brunch on weekends from
-                                                                10am-3pm with bottomless mimosas. We will also continue
-                                                                with our late night lounge on Friday and Saturdays until
-                                                                2am.
+                                                            <p style="text-align: center;">
+                                                                Успейте поймать свои «Счастливые часы» в нашей котейне! Теперь блюд стало еще больше! Заказывайте одно блюдо, а второе такое же мы подадим в подарок*.
+                                                                <br>
+                                                                Еще больше любимых сендвичей, вкусной круассанов, свежих салатов и уюта!
                                                             </p>
                                                             <h4 style="text-align: center;">+38(066) 313 6720</h4>
-                                                            <h6 style="text-align: center;">30 минут гарантии!</h6>
+                                                            <h6 style="text-align: center;">*Под подарком подразумевается возможность покупки второго такого же блюда за 1 гривну.</h6>
                                                             <span class="vamtam-blank-space " style="height:5px"></span>
                                                             <p class="textcenter">
                                                                 <a href="reservation.html"
@@ -1305,7 +1297,7 @@
                                                                         <h2 class="text-divider-double">
                                                                             Мы предлагаем
                                                                         </h2>
-                                                                        <div class="text-divider-subtitle">Специальное предложение
+                                                                        <div class="text-divider-subtitle">В меню
                                                                         </div>
                                                                     </div>
                                                                     <div class="sep-text-after">
@@ -1345,8 +1337,7 @@
                                                         <a href="index.html" title="Кофе и Чай">Кофе и Чай</a>
                                                     </h4>
                                                     <div class="services-content">
-                                                        <p>Its delicious smooth blend and various varieties seductively
-                                                            charm you at the start of your day.</p>
+                                                        <p>Его вкусное сочетание и различные сорта соблазнительно очаруют вас в начале вашего дня</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1373,8 +1364,7 @@
                                                         <a href="index.html" title="Свежая выпечка">Свежая выпечка</a>
                                                     </h4>
                                                     <div class="services-content">
-                                                        <p>These desserts aren’t simply favorites of ours; they also
-                                                            help define, in their own way…</p>
+                                                        <p>Эти десерты не просто наши любимые. Они также помогают распознать в себе ценителя вкусных булочек</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1402,8 +1392,7 @@
                                                         <a href="index.html" title="Утреннее меню">Утреннее меню</a>
                                                     </h4>
                                                     <div class="services-content">
-                                                        <p>We make our lunches and dinners with the finest ingredients
-                                                            we can find to make our meals as flavorful as possible.</p>
+                                                        <p>Мы делаем наши блюда с лучшими ингредиентами, которые мы можем найти, чтобы сделать их максимально вкусными для Вас.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1430,8 +1419,7 @@
                                                         <a href="index.html" title="Место для отдыха">Место для отдыха</a>
                                                     </h4>
                                                     <div class="services-content">
-                                                        <p>Coffice in Stockholm is a great place to work from. Food
-                                                            options beyond pastries. Free WiFi.</p>
+                                                        <p>Котейня отлично подходит для уютного отдыха с друзьями и родными в компании замечательных котеек.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1457,8 +1445,7 @@
                                                         <a href="index.html" title="Child Friendly">Котики!</a>
                                                     </h4>
                                                     <div class="services-content">
-                                                        <p>Based in Barcelona, Pudding Bar was designed for spending the
-                                                            afternoon with the kids.</p>
+                                                        <p>Тут Вы можете здорово провести время с этими мохнатыми комочками презрения и милоты :)</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1526,7 +1513,7 @@
                                                                             </div>
                                                                             <div class="content">
                                                                                 <h2 class="text-divider-double">Чай</h2>
-                                                                                <div class="text-divider-subtitle">Специальное предложение
+                                                                                <div class="text-divider-subtitle">Сегодня
                                                                                 </div>
                                                                             </div>
                                                                             <div class="sep-text-after">
@@ -1563,11 +1550,11 @@
                                                         <span class="icon shortcode theme  use-hover" style="color:#89b649;font-size:80px !important;"></span>
                                                     </p>
                                                     <h2 style="padding-left: 60px;">Будда:<br>Как пить чай?</h2>
-                                                    <p style="padding-left: 60px;">The types of tea are white tea, green
-                                                        tea, yellow tea, oolong tea, black tea, and pu-erh tea. “When
-                                                        you have the title ‘white tea’ or ‘green tea’, you’re actually
-                                                        describing the process by which it has been made,” Woollard
-                                                        says.
+                                                    <p style="padding-left: 60px;">
+                                                        Типы чая - белый чай, зеленый чай, желтый чай, чай улун, черный
+                                                        чай и чай pu-erh. «Когда у вас есть заголовок «белый чай» или
+                                                        «зеленый чай», вы на самом деле описываете процесс его
+                                                        производства».
                                                     </p>
                                                 </div>
                                                 <div class="vamtam-grid grid-1-4  grid-1-4  unextended no-extended-padding"
@@ -1618,7 +1605,7 @@
                                                                                         </a>
                                                                                         <span class="price">
                                                                                             <span class="woocommerce-Price-amount amount">
-                                                                                                <span class="woocommerce-Price-currencySymbol">£</span>60.00
+                                                                                                <span class="woocommerce-Price-currencySymbol"></span>184 грн
                                                                                             </span>
                                                                                         </span>
                                                                                     </div>
@@ -1657,7 +1644,7 @@
                                                                                         </a>
                                                                                         <span class="price">
                                                                                             <span class="woocommerce-Price-amount amount">
-                                                                                                <span class="woocommerce-Price-currencySymbol">£</span>60.00
+                                                                                                <span class="woocommerce-Price-currencySymbol"></span>184 грн
                                                                                             </span>
                                                                                         </span>
                                                                                     </div>
@@ -1692,7 +1679,7 @@
                                                                                     </a>
                                                                                         <span class="price">
                                                                                             <span class="woocommerce-Price-amount amount">
-                                                                                                <span class="woocommerce-Price-currencySymbol">£</span>4.90
+                                                                                                <span class="woocommerce-Price-currencySymbol"></span>21 грн
                                                                                             </span>
                                                                                         </span>
                                                                                     </div>
@@ -1819,7 +1806,7 @@
 <span>
 <h3 class="title">
 <a href="https://vip-restaurant.vamtam.com/portfolio/creamy-leek-potato-soup/" class="project-title cbp-singlePage"
-   target="_self">Сливочный лук-порей и томатный суп</a>
+   target="_self">Собственный Мяу сендвич</a>
 </h3>
 </span>
                                                                         </div>
@@ -2064,7 +2051,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h2 class="text-divider-double">Меню</h2>
-                                                    <div class="text-divider-subtitle">Специальное предложение</div>
+                                                    <div class="text-divider-subtitle">Сегодня</div>
                                                 </div>
                                                 <div class="sep-text-after">
                                                     <div class="sep-text-line"></div>
@@ -2091,7 +2078,7 @@
                                                         <div class="fp_box menuItem c_100 normal_item fp_popTrig style_1"
                                                              data-ux="lightbox" data-menuitem_id="11978" style="">
                                                             <div class="fp_inner_box">
-                                                                <h3 class="" title="Antioxidant Fruits Mix">Фруктовый микс<span class="fp_price">$8</span></h3>
+                                                                <h3 class="" title="Antioxidant Fruits Mix">Фруктовый микс<span class="fp_price">23 грн</span></h3>
                                                                 <div class="menu_description"><a
                                                                         class="fp_popTrig fp_inline_btn"
                                                                         data-menuitem_id="11978">Подробнее</a></div>
@@ -2101,10 +2088,9 @@
                                                              data-ux="lightbox" data-menuitem_id="11706" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Blueberry banana pancakes">Черничные блинчики с бананами
-                                                                    <span class="fp_price">$5</span>
+                                                                    <span class="fp_price">18 грн</span>
                                                                 </h3>
-                                                                <div class="menu_description">Banana, almond milk,
-                                                                    vanilla, cinnamon, blueberry topping<a
+                                                                <div class="menu_description">Бананы, молоко, ваниль, корица, черничный топинг<a
                                                                             class="fp_popTrig fp_inline_btn"
                                                                             data-menuitem_id="11706">Подробнее</a>
                                                                 </div>
@@ -2114,7 +2100,7 @@
                                                              data-ux="lightbox" data-menuitem_id="11700" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Fig and lemon cake">Рис и лимонный пирог
-                                                                    <span class="fp_price">$7</span>
+                                                                    <span class="fp_price">21 грн</span>
                                                                 </h3>
                                                                 <div class="menu_description"><a
                                                                         class="fp_popTrig fp_inline_btn"
@@ -2125,7 +2111,7 @@
                                                              data-ux="lightbox" data-menuitem_id="11692" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Home made bread">Домашний хлеб
-                                                                    <span class="fp_price">$3 each</span></h3>
+                                                                    <span class="fp_price">10 грн/шт</span></h3>
                                                                 <div class="menu_description"><a
                                                                         class="fp_popTrig fp_inline_btn"
                                                                         data-menuitem_id="11692">Подробнее</a></div>
@@ -2135,12 +2121,10 @@
                                                              data-ux="lightbox" data-menuitem_id="11708" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Pain au chocolat">Домашние круассаны
-                                                                    <span class="fp_price">$4</span></h3>
-                                                                <div class="menu_description">Beautiful homemade
-                                                                    croissants, each containing a bar of high-quality
-                                                                    dark chocolate, make for an impressive and indulgent
-                                                                    addition to ...<a class="fp_popTrig fp_inline_btn"
-                                                                                      data-menuitem_id="11708">Подробнее</a></div>
+                                                                    <span class="fp_price">14 грн</span></h3>
+                                                                <div class="menu_description">Горячий кофе в компании вкусных домашних круассанов, каждый из которых подарит Вам вкус настоящего черного шоколада.
+                                                                    <a class="fp_popTrig fp_inline_btn"
+                                                                       data-menuitem_id="11708">Подробнее</a></div>
                                                             </div>
                                                         </div>
                                                         <div class="fp_box menuItem c_100 normal_item fp_popTrig style_1"
@@ -2148,7 +2132,7 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Sun-Dried Tomato Bruschetta">
                                                                     Вяленые помидоры<span
-                                                                        class="fp_price">$7</span></h3>
+                                                                        class="fp_price">31 грн</span></h3>
                                                                 <div class="menu_description"><a
                                                                         class="fp_popTrig fp_inline_btn"
                                                                         data-menuitem_id="11688">Подробнее</a></div>
@@ -2159,9 +2143,8 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class=""
                                                                     title="Traditional pancakes with maple syrup butter &amp; berry jam">
-                                                                    Традиционные блинчики с кленовым сиропом, сливочным маслом и ягодным джемом<span class="fp_price">$5</span></h3>
-                                                                <div class="menu_description">Milk, eggs, strawberries,
-                                                                    butter, maple syrup<a
+                                                                    Традиционные блинчики с кленовым сиропом, сливочным маслом и ягодным джемом<span class="fp_price">26 грн</span></h3>
+                                                                <div class="menu_description">Молоко, яйца, клубника или смородина, хлеб, кленовый сироп<a
                                                                             class="fp_popTrig fp_inline_btn"
                                                                             data-menuitem_id="11707">Подробнее</a>
                                                                 </div>
@@ -2179,12 +2162,11 @@
                                                              data-ux="lightbox" data-menuitem_id="11709" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="American Brunch Combo Menu">Бизнес ланч
-                                                                    <span class="fp_price">$ 15</span>
+                                                                    <span class="fp_price">60 грн</span>
                                                                 </h3>
-                                                                <div class="menu_description">Freshly scrambled eggs
-                                                                    with applewood smoked bacon, tomatoes, green onions
-                                                                    and cheddar cheese.<a
-                                                                            class="fp_popTrig fp_inline_btn"
+                                                                <div class="menu_description">
+                                                                    Свежеиспеченные яйца с копченым беконом, помидорами, зеленым луком и сыром.
+                                                                    <a class="fp_popTrig fp_inline_btn"
                                                                             data-menuitem_id="11709">Подробнее</a>
                                                                 </div>
                                                             </div>
@@ -2192,9 +2174,8 @@
                                                         <div class="fp_box menuItem c_100 normal_item fp_popTrig style_1"
                                                              data-ux="lightbox" data-menuitem_id="11706" style="">
                                                             <div class="fp_inner_box">
-                                                                <h3 class="" title="Blueberry banana pancakes">Блинчики с черникой и бананами<span class="fp_price">$5</span></h3>
-                                                                <div class="menu_description">Banana, almond milk,
-                                                                    vanilla, cinnamon, blueberry topping<a
+                                                                <h3 class="" title="Blueberry banana pancakes">Блинчики с черникой и бананами<span class="fp_price">27 грн</span></h3>
+                                                                <div class="menu_description">Банан, молоко, ваниль, корица, черничный топинг<a
                                                                             class="fp_popTrig fp_inline_btn"
                                                                             data-menuitem_id="11706">Подробнее</a>
                                                                 </div>
@@ -2205,10 +2186,8 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class=""
                                                                     title="Cashew Chicken With Stir-Fry Vegetables &amp; Green Salad">
-                                                                    Салат с курицей и помидорами<span class="fp_price">$22</span></h3>
-                                                                <div class="menu_description">Cashew Chicken With
-                                                                    Stir-Fry Vegetables served with green salad, sprouts
-                                                                    and stewed mushrooms.<a
+                                                                    Салат с курицей и помидорами<span class="fp_price">92 грн</span></h3>
+                                                                <div class="menu_description">Листья салата, фирменный соус с грибами и кунжутом, жаренные на гриле овощи, зелень, курочка<a
                                                                             class="fp_popTrig fp_inline_btn"
                                                                             data-menuitem_id="11713">Подробнее</a>
                                                                 </div>
@@ -2220,11 +2199,10 @@
                                                                 <h3 class=""
                                                                     title="Coffee &amp; Strawberry Jam French Toast with Strawberry Butter Combo Menu">
                                                                     Кофе и Французские тосты с малиновым джемом
-                                                                    <span class="fp_price">$11</span>
+                                                                    <span class="fp_price">42 грн</span>
                                                                 </h3>
-                                                                <div class="menu_description">Hot coffee in the company
-                                                                    of fresh bread toast topped with homemade strawberry
-                                                                    butter, warm maple syrup, and fresh ...<a
+                                                                <div class="menu_description">Горячий кофе парочка французских тостов, политых скуснейшим малиновым джемом собственного производства.
+                                                                    <a
                                                                             class="fp_popTrig fp_inline_btn"
                                                                             data-menuitem_id="11710">Подробнее</a>
                                                                 </div>
@@ -2235,11 +2213,10 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class=""
                                                                     title="Coffee and Pain au chocolat (Chocolate croissant) Combo Menu">
-                                                                    Кофе с круассанами<span class="fp_price">$11</span></h3>
-                                                                <div class="menu_description">Hot coffee in the company
-                                                                    of Beautiful homemade croissants, each containing a
-                                                                    bar of high-quality dark chocolate, make for ...<a
-                                                                            class="fp_popTrig fp_inline_btn"
+                                                                    Кофе с круассанами<span class="fp_price">43 грн</span></h3>
+                                                                <div class="menu_description">
+                                                                    Горячий кофе в компании вкусных домашних круассанов, каждый из которых подарит Вам вкус настоящего черного шоколада.
+                                                                    <a class="fp_popTrig fp_inline_btn"
                                                                             data-menuitem_id="11711">Подробнее</a>
                                                                 </div>
                                                             </div>
@@ -2249,10 +2226,8 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="French Toast with Strawberry Jam">
                                                                     Французские тосты с малиновым джемом<span
-                                                                        class="fp_price">$11</span></h3>
-                                                                <div class="menu_description">Hot coffee in the company
-                                                                    of fresh bread toast topped with homemade strawberry
-                                                                    butter, warm maple syrup, and fresh ...<a
+                                                                        class="fp_price">30 грн</span></h3>
+                                                                <div class="menu_description">Французские тосты с клубничным или малиновым джемом собственного производства.<a
                                                                             class="fp_popTrig fp_inline_btn"
                                                                             data-menuitem_id="11977">Подробнее</a>
                                                                 </div>
@@ -2263,7 +2238,7 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Optic Big Breakfast Combo Menu">
                                                                     Ланч-салат
-                                                                    <span class="fp_price">$20</span></h3>
+                                                                    <span class="fp_price">60 грн</span></h3>
                                                                 <div class="menu_description"><a
                                                                         class="fp_popTrig fp_inline_btn"
                                                                         data-menuitem_id="11712">Подробнее</a></div>
@@ -2273,7 +2248,7 @@
                                                              data-ux="lightbox" data-menuitem_id="11976" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Optic Big Salad Combo">Большой салат с сыром и мясом
-                                                                    <span class="fp_price">$20</span></h3>
+                                                                    <span class="fp_price">62 грн</span></h3>
                                                                 <div class="menu_description"><a
                                                                         class="fp_popTrig fp_inline_btn"
                                                                         data-menuitem_id="11976">Подробнее</a></div>
@@ -2283,12 +2258,11 @@
                                                              data-ux="lightbox" data-menuitem_id="11708" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Pain au chocolat">Круассаны с черникой
-                                                                    <span class="fp_price">$4</span></h3>
-                                                                <div class="menu_description">Beautiful homemade
-                                                                    croissants, each containing a bar of high-quality
-                                                                    dark chocolate, make for an impressive and indulgent
-                                                                    addition to ...<a class="fp_popTrig fp_inline_btn"
-                                                                                      data-menuitem_id="11708">Подробнее
+                                                                    <span class="fp_price">14 грн</span></h3>
+                                                                <div class="menu_description">
+                                                                    Вкусные домашние круассаны с черникой
+                                                                    <a class="fp_popTrig fp_inline_btn"
+                                                                       data-menuitem_id="11708">Подробнее
                                                                     </a></div>
                                                             </div>
                                                         </div>
@@ -2296,10 +2270,8 @@
                                                              data-ux="lightbox" data-menuitem_id="11975" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Salad With Vegetables">Салат Цезарь
-                                                                    <span class="fp_price">$22</span></h3>
-                                                                <div class="menu_description">Cashew Chicken With
-                                                                    Stir-Fry Vegetables served with green salad, sprouts
-                                                                    and stewed mushrooms.<a
+                                                                    <span class="fp_price">82 грн</span></h3>
+                                                                <div class="menu_description">Листья салата, соус "Цезарь", помидоры черри, хрустящие сухарики<a
                                                                             class="fp_popTrig fp_inline_btn"
                                                                             data-menuitem_id="11975">Подробнее</a>
                                                                 </div>
@@ -2310,10 +2282,9 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class=""
                                                                     title="Traditional pancakes with maple syrup butter &amp; berry jam">
-                                                                    Традиционные блинчики с кленовым сиропом, хлебом и ягодным джемом<span class="fp_price">$5</span></h3>
-                                                                <div class="menu_description">Milk, eggs, strawberries,
-                                                                    butter, maple syrup<a
-                                                                            class="fp_popTrig fp_inline_btn"
+                                                                    Традиционные блинчики с кленовым сиропом, хлебом и ягодным джемом<span class="fp_price">27 грн</span></h3>
+                                                                <div class="menu_description">Молоко, яйца, ягоды, хлеб, кленовый сироп.
+                                                                    <a class="fp_popTrig fp_inline_btn"
                                                                             data-menuitem_id="11707">Подробнее</a>
                                                                 </div>
                                                             </div>
@@ -2341,7 +2312,7 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Alder Grilled Chinook Salmon">Alder
                                                                     Grilled Chinook Salmon<span
-                                                                            class="fp_price">$33</span></h3>
+                                                                            class="fp_price">108 грн</span></h3>
                                                                 <div class="menu_description">Candied salmon, basil
                                                                     potato puree, baby kale marsala eggplant confit
                                                                     &amp; balsamic butter sauce.<a
@@ -2355,7 +2326,7 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Alder grilled seafood paella">Alder
                                                                     grilled seafood paella<span
-                                                                            class="fp_price">$37</span></h3>
+                                                                            class="fp_price">128 грн</span></h3>
                                                                 <div class="menu_description">Shell-on king prawns,
                                                                     monkfish, onion, paella rice, garlic, smoked
                                                                     paprika, cayenne pepper (optional), saffron,
@@ -2371,7 +2342,7 @@
                                                                 <h3 class=""
                                                                     title="Asian chicken &amp; vegetable stir fry">Asian
                                                                     chicken &amp; vegetable stir fry<span
-                                                                            class="fp_price">$41</span></h3>
+                                                                            class="fp_price">141 грн</span></h3>
                                                                 <div class="menu_description">Chicken breast,
                                                                     cornstarch, soy sauce, garlic, minced, potatoes,
                                                                     onion, bell pepper, carrot, green beans (aka Baguio
@@ -2386,7 +2357,7 @@
                                                                 <h3 class=""
                                                                     title="Creamy smoked salmon, leek &amp; potato soup">
                                                                     Creamy smoked salmon, leek &amp; potato soup<span
-                                                                        class="fp_price">$9.50</span></h3>
+                                                                        class="fp_price">25 грн</span></h3>
                                                                 <div class="menu_description">Served in deep bowls with
                                                                     smoked salmon and snipped chives on the top.<a
                                                                             class="fp_popTrig fp_inline_btn"
@@ -2400,7 +2371,7 @@
                                                                 <h3 class=""
                                                                     title="Head on prawns, manila clams &amp; mussels">
                                                                     Head on prawns, manila clams &amp; mussels<span
-                                                                        class="fp_price">$39</span></h3>
+                                                                        class="fp_price">80 грн</span></h3>
                                                                 <div class="menu_description">These small shellfish have
                                                                     a sweet flavour and a firm texture.<a
                                                                             class="fp_popTrig fp_inline_btn"
@@ -2413,7 +2384,7 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Lamb Chops Sizzled with Garlic">Lamb
                                                                     Chops Sizzled with Garlic<span
-                                                                            class="fp_price">$45</span></h3>
+                                                                            class="fp_price">99 грн</span></h3>
                                                                 <div class="menu_description"><a
                                                                         class="fp_popTrig fp_inline_btn"
                                                                         data-menuitem_id="11697"> Read More</a></div>
@@ -2423,7 +2394,7 @@
                                                              data-ux="lightbox" data-menuitem_id="11975" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Salad With Vegetables">Salad With
-                                                                    Vegetables<span class="fp_price">$22</span></h3>
+                                                                    Vegetables<span class="fp_price">62 грн</span></h3>
                                                                 <div class="menu_description">Cashew Chicken With
                                                                     Stir-Fry Vegetables served with green salad, sprouts
                                                                     and stewed mushrooms.<a
@@ -2435,8 +2406,7 @@
                                                         <div class="fp_box menuItem c_100 normal_item fp_popTrig style_1"
                                                              data-ux="lightbox" data-menuitem_id="11698" style="">
                                                             <div class="fp_inner_box">
-                                                                <h3 class="" title="Smoked Paprika Hummus">Smoked
-                                                                    Paprika Hummus<span class="fp_price">$19</span></h3>
+                                                                <h3 class="" title="Smoked Paprika Hummus">Овощи на гриле<span class="fp_price">68 грн</span></h3>
                                                                 <div class="menu_description">Optional garnishes:
                                                                     roasted red bell peppers, roasted garlic, lemon
                                                                     slices, olives, mint or parsley sprigs<a
@@ -2449,7 +2419,7 @@
                                                              data-ux="lightbox" data-menuitem_id="11695" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Spicy Vegan Potato Curry">Spicy
-                                                                    Vegan Potato Curry<span class="fp_price">$28</span>
+                                                                    Vegan Potato Curry<span class="fp_price">74 грн</span>
                                                                 </h3>
                                                                 <div class="menu_description">Onion, garlic, turmeric,
                                                                     cumin, coriander, tomato, potato, carrot, red
@@ -2463,7 +2433,7 @@
                                                     <div class="clear"></div>
                                                 </div>
                                                 <h2 class="primary_type meal_type fp_menu_sub_section tint_menu menu_term_504  "
-                                                    data-name="Lunch" data-slug="lunch" data-src="">Lunch<span
+                                                    data-name="Lunch" data-slug="lunch" data-src="">Ланч<span
                                                         class="fp_menu_expand"></span></h2>
                                                 <div class="fp_container fp_lunch">
                                                     <div class="food_items_container">
@@ -2472,7 +2442,7 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Alder Grilled Chinook Salmon">Alder
                                                                     Grilled Chinook Salmon<span
-                                                                            class="fp_price">$33</span></h3>
+                                                                            class="fp_price">86 грн</span></h3>
                                                                 <div class="menu_description">Candied salmon, basil
                                                                     potato puree, baby kale marsala eggplant confit
                                                                     &amp; balsamic butter sauce.<a
@@ -2486,7 +2456,7 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Alder grilled seafood paella">Alder
                                                                     grilled seafood paella<span
-                                                                            class="fp_price">$37</span></h3>
+                                                                            class="fp_price">81 грн</span></h3>
                                                                 <div class="menu_description">Shell-on king prawns,
                                                                     monkfish, onion, paella rice, garlic, smoked
                                                                     paprika, cayenne pepper (optional), saffron,
@@ -2502,7 +2472,7 @@
                                                                 <h3 class=""
                                                                     title="Asian chicken &amp; vegetable stir fry">Asian
                                                                     chicken &amp; vegetable stir fry<span
-                                                                            class="fp_price">$41</span></h3>
+                                                                            class="fp_price">102 грн</span></h3>
                                                                 <div class="menu_description">Chicken breast,
                                                                     cornstarch, soy sauce, garlic, minced, potatoes,
                                                                     onion, bell pepper, carrot, green beans (aka Baguio
@@ -2517,7 +2487,7 @@
                                                                 <h3 class=""
                                                                     title="Creamy smoked salmon, leek &amp; potato soup">
                                                                     Creamy smoked salmon, leek &amp; potato soup<span
-                                                                        class="fp_price">$9.50</span></h3>
+                                                                        class="fp_price">26 грн</span></h3>
                                                                 <div class="menu_description">Served in deep bowls with
                                                                     smoked salmon and snipped chives on the top.<a
                                                                             class="fp_popTrig fp_inline_btn"
@@ -2531,7 +2501,7 @@
                                                                 <h3 class=""
                                                                     title="Head on prawns, manila clams &amp; mussels">
                                                                     Head on prawns, manila clams &amp; mussels<span
-                                                                        class="fp_price">$39</span></h3>
+                                                                        class="fp_price">80 грн</span></h3>
                                                                 <div class="menu_description">These small shellfish have
                                                                     a sweet flavour and a firm texture.<a
                                                                             class="fp_popTrig fp_inline_btn"
@@ -2544,7 +2514,7 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Lamb Chops Sizzled with Garlic">Lamb
                                                                     Chops Sizzled with Garlic<span
-                                                                            class="fp_price">$45</span></h3>
+                                                                            class="fp_price">94 грн</span></h3>
                                                                 <div class="menu_description"><a
                                                                         class="fp_popTrig fp_inline_btn"
                                                                         data-menuitem_id="11697"> Read More</a></div>
@@ -2554,7 +2524,7 @@
                                                              data-ux="lightbox" data-menuitem_id="11698" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Smoked Paprika Hummus">Smoked
-                                                                    Paprika Hummus<span class="fp_price">$19</span></h3>
+                                                                    Paprika Hummus<span class="fp_price">44 грн</span></h3>
                                                                 <div class="menu_description">Optional garnishes:
                                                                     roasted red bell peppers, roasted garlic, lemon
                                                                     slices, olives, mint or parsley sprigs<a
@@ -2567,7 +2537,7 @@
                                                              data-ux="lightbox" data-menuitem_id="11695" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Spicy Vegan Potato Curry">Spicy
-                                                                    Vegan Potato Curry<span class="fp_price">$28</span>
+                                                                    Vegan Potato Curry<span class="fp_price">60 грн</span>
                                                                 </h3>
                                                                 <div class="menu_description">Onion, garlic, turmeric,
                                                                     cumin, coriander, tomato, potato, carrot, red
@@ -2599,7 +2569,7 @@
                                                              data-ux="lightbox" data-menuitem_id="11978" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Antioxidant Fruits Mix">Antioxidant
-                                                                    Fruits Mix<span class="fp_price">$8</span></h3>
+                                                                    Fruits Mix<span class="fp_price">24 грн</span></h3>
                                                                 <div class="menu_description"><a
                                                                         class="fp_popTrig fp_inline_btn"
                                                                         data-menuitem_id="11978"> Read More</a></div>
@@ -2609,7 +2579,7 @@
                                                              data-ux="lightbox" data-menuitem_id="11703" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Berries and creme tart">Berries and
-                                                                    creme tart<span class="fp_price">$7</span></h3>
+                                                                    creme tart<span class="fp_price">20 грн</span></h3>
                                                                 <div class="menu_description">Butter crust, vanilla
                                                                     pudding with heavy cream, topping with fresh
                                                                     raspberries, blueberries, cranberry.<a
@@ -2622,7 +2592,7 @@
                                                              data-ux="lightbox" data-menuitem_id="11706" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Blueberry banana pancakes">Blueberry
-                                                                    banana pancakes<span class="fp_price">$5</span></h3>
+                                                                    banana pancakes<span class="fp_price">26 грн</span></h3>
                                                                 <div class="menu_description">Banana, almond milk,
                                                                     vanilla, cinnamon, blueberry topping<a
                                                                             class="fp_popTrig fp_inline_btn"
@@ -2636,7 +2606,7 @@
                                                                 <h3 class=""
                                                                     title="Blueberry Sweet Rolls with Lemon Glaze">
                                                                     Blueberry Sweet Rolls with Lemon Glaze<span
-                                                                        class="fp_price">$7</span></h3>
+                                                                        class="fp_price">32 грн</span></h3>
                                                                 <div class="menu_description">Butter, blueberries,
                                                                     lemon, heavy cream - an irresistible sweet-sour
                                                                     combination of tastes.<a
@@ -2651,7 +2621,7 @@
                                                                 <h3 class=""
                                                                     title="Chocolate Cherry Cake with Meringue Butter Cream">
                                                                     Chocolate Cherry Cake with Meringue Butter
-                                                                    Cream<span class="fp_price">$8</span></h3>
+                                                                    Cream<span class="fp_price">36 грн</span></h3>
                                                                 <div class="menu_description">Vanilla, milk, dark
                                                                     chocolate, cherries, eggs, butter<a
                                                                             class="fp_popTrig fp_inline_btn"
@@ -2663,7 +2633,7 @@
                                                              data-ux="lightbox" data-menuitem_id="11704" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Classic Blueberry Pie">Classic
-                                                                    Blueberry Pie<span class="fp_price">$6</span></h3>
+                                                                    Blueberry Pie<span class="fp_price">18 грн</span></h3>
                                                                 <div class="menu_description">Pastry, cinnamon,
                                                                     blueberries, lemon juice<a
                                                                             class="fp_popTrig fp_inline_btn"
@@ -2677,7 +2647,7 @@
                                                                 <h3 class=""
                                                                     title="Creamy mascarpone cake with passion fruit sauce">
                                                                     Creamy mascarpone cake with passion fruit sauce<span
-                                                                        class="fp_price">$8</span></h3>
+                                                                        class="fp_price">22 грн</span></h3>
                                                                 <div class="menu_description"><a
                                                                         class="fp_popTrig fp_inline_btn"
                                                                         data-menuitem_id="11699"> Read More</a></div>
@@ -2687,7 +2657,7 @@
                                                              data-ux="lightbox" data-menuitem_id="11700" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Fig and lemon cake">Fig and lemon
-                                                                    cake<span class="fp_price">$7</span></h3>
+                                                                    cake<span class="fp_price">20 грн</span></h3>
                                                                 <div class="menu_description"><a
                                                                         class="fp_popTrig fp_inline_btn"
                                                                         data-menuitem_id="11700"> Read More</a></div>
@@ -2699,7 +2669,7 @@
                                                                 <h3 class=""
                                                                     title="Traditional pancakes with maple syrup butter &amp; berry jam">
                                                                     Traditional pancakes with maple syrup butter &amp;
-                                                                    berry jam<span class="fp_price">$5</span></h3>
+                                                                    berry jam<span class="fp_price">25 грн</span></h3>
                                                                 <div class="menu_description">Milk, eggs, strawberries,
                                                                     butter, maple syrup<a
                                                                             class="fp_popTrig fp_inline_btn"
@@ -2718,8 +2688,8 @@
                                                         <div class="fp_box menuItem c_100 normal_item fp_popTrig style_1"
                                                              data-ux="lightbox" data-menuitem_id="11594" style="">
                                                             <div class="fp_inner_box">
-                                                                <h3 class="" title="Aperol Spritz">Aperol Spritz<span
-                                                                        class="fp_price">$7.90</span></h3>
+                                                                <h3 class="" title="Aperol Spritz">Американо<span
+                                                                        class="fp_price">18 грн</span></h3>
                                                                 <div class="menu_description">Ice and slice of orange,
                                                                     prosecco, aperol, soda
                                                                     <a class="fp_popTrig fp_inline_btn"
@@ -2729,8 +2699,8 @@
                                                         <div class="fp_box menuItem c_100 normal_item fp_popTrig style_1"
                                                              data-ux="lightbox" data-menuitem_id="11784" style="">
                                                             <div class="fp_inner_box">
-                                                                <h3 class="" title="Caffe Latte">Caffe Latte<span
-                                                                        class="fp_price">$5.90</span></h3>
+                                                                <h3 class="" title="Caffe Latte">Латте<span
+                                                                        class="fp_price">22 грн</span></h3>
                                                                 <div class="menu_description">A Latte is a coffee drink
                                                                     made with espresso and steamed milk.<a
                                                                             class="fp_popTrig fp_inline_btn"
@@ -2741,8 +2711,7 @@
                                                         <div class="fp_box menuItem c_100 normal_item fp_popTrig style_1"
                                                              data-ux="lightbox" data-menuitem_id="11786" style="">
                                                             <div class="fp_inner_box">
-                                                                <h3 class="" title="Caffè macchiato">Caffè
-                                                                    macchiato<span class="fp_price">$5.90</span></h3>
+                                                                <h3 class="" title="Caffè macchiato">Макиато<span class="fp_price">20 грн</span></h3>
                                                                 <div class="menu_description">An espresso coffee drink
                                                                     with a small amount of milk, usually foamed.<a
                                                                             class="fp_popTrig fp_inline_btn"
@@ -2753,8 +2722,8 @@
                                                         <div class="fp_box menuItem c_100 normal_item fp_popTrig style_1"
                                                              data-ux="lightbox" data-menuitem_id="11788" style="">
                                                             <div class="fp_inner_box">
-                                                                <h3 class="" title="Campari">Campari<span
-                                                                        class="fp_price">$6.90</span></h3>
+                                                                <h3 class="" title="Campari">Кампари<span
+                                                                        class="fp_price">26 грн</span></h3>
                                                                 <div class="menu_description">Campari's bracing
                                                                     bitterness and lush grapefruit notes are refreshing
                                                                     when mixed simply with soda, drunk before dinner to
@@ -2766,8 +2735,8 @@
                                                         <div class="fp_box menuItem c_100 normal_item fp_popTrig style_1"
                                                              data-ux="lightbox" data-menuitem_id="11785" style="">
                                                             <div class="fp_inner_box">
-                                                                <h3 class="" title="Cappuccino">Cappuccino<span
-                                                                        class="fp_price">$5.90</span></h3>
+                                                                <h3 class="" title="Cappuccino">Капучино<span
+                                                                        class="fp_price">24 грн</span></h3>
                                                                 <div class="menu_description">A cappuccino is an Italian
                                                                     coffee drink that is traditionally prepared with
                                                                     espresso, hot milk, and steamed milk foam.<a
@@ -2781,8 +2750,7 @@
                                                             <div class="fp_inner_box">
                                                                 <h3 class=""
                                                                     title="Stoneburn Pinot Noir 2013, Marlborough, New Zealand">
-                                                                    Stoneburn Pinot Noir 2013, Marlborough, New
-                                                                    Zealand<span class="fp_price">$13.90</span></h3>
+                                                                    Какао<span class="fp_price">30 грн</span></h3>
                                                                 <div class="menu_description">Wonderful flavours of soft
                                                                     plums and raspberry, it has the depth and body to
                                                                     satisfy any Pinot Noir lover.
@@ -2794,7 +2762,7 @@
                                                              data-ux="lightbox" data-menuitem_id="11790" style="">
                                                             <div class="fp_inner_box">
                                                                 <h3 class="" title="Tormentoso Bush Vine Pintoage">
-                                                                    Tormentoso Bush Vine Pintoage<span class="fp_price">$11.90</span>
+                                                                    Горячий шоколад<span class="fp_price">35 грн</span>
                                                                 </h3>
                                                                 <div class="menu_description">Ruby centre with a bright
                                                                     rim, this wine has typical Pinotage aromas of black
@@ -2823,11 +2791,14 @@
                                                      style="padding-top:0.05px;padding-bottom:0.05px;"
                                                      id="vamtam-column-5442e5cb5b89e415d60b1dc04e34b13d">
                                                     <p>
-                                                        <iframe style="border: 0;"
+                                                        <!--<iframe style="border: 0;"
                                                                 src="assets/embed.html" width="100%"
                                                                 height="450" frameborder="0"
                                                                 allowfullscreen="allowfullscreen">
-                                                        </iframe>
+                                                        </iframe>-->
+                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2645.4830781017645!2d35.04551802090759!3d48.4664469124971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1510174374763"
+                                                                width="600" height="450" frameborder="0"
+                                                                style="border:0" allowfullscreen></iframe>
                                                     </p>
                                                 </div>
                                             </div>
@@ -2989,7 +2960,7 @@
                                             <h2 class="text-divider-double">
                                                 Новости и События
                                             </h2>
-                                            <div class="text-divider-subtitle">Специальные предложения</div>
+                                            <div class="text-divider-subtitle">Полезно</div>
                                         </div>
                                         <div class="sep-text-after">
                                             <div class="sep-text-line"></div>
@@ -3025,7 +2996,7 @@
                                                                                         <div class="post-media">
                                                                                             <div class="thumbnail">
                                                                                                 <a href="https://vip-restaurant.vamtam.com/best-lamb-in-the-world/"
-                                                                                                   title="Which Lamb is the Best: American, Australian or New Zealand?">
+                                                                                                   title="Готовим баранину с техасским соусом">
                                                                                                     <img src="assets/img/Meat-1-292x195.jpg"
                                                                                                          class="attachment-theme-normal-4 size-theme-normal-4 wp-post-image"
                                                                                                          alt=""
@@ -3055,57 +3026,42 @@
                                                                                                 <div class="content">
                                                                                                     <h4>
                                                                                                         <a href="https://vip-restaurant.vamtam.com/best-lamb-in-the-world/"
-                                                                                                           title="Which Lamb is the Best: American, Australian or New Zealand?"
-                                                                                                           class="entry-title">Which
-                                                                                                            Lamb is the
-                                                                                                            Best:
-                                                                                                            American,
-                                                                                                            Australian
-                                                                                                            or New
-                                                                                                            Zealand?</a>
+                                                                                                           title="Готовим баранину с техасским соусом"
+                                                                                                           class="entry-title">Готовим баранину с техасским соусом</a>
                                                                                                     </h4>
                                                                                                 </div>
                                                                                             </header>
                                                                                             <div class="post-content-outer">
-                                                                                                <p>Lamb is a very
-                                                                                                    subjective item.
-                                                                                                    Many people feel
-                                                                                                    that New Zealand or
-                                                                                                    Australian is…</p>
+                                                                                                <p>Сегодня мы с Вами приготовим блюдо, которое можно подавать...</p>
                                                                                             </div>
                                                                                             <div class="post-content-meta">
                                                                                                 <div class="the-tags vamtam-meta-tax">
                                                                                                     <span class="icon"></span>
-                                                                                                    <span class="visuallyhidden">Tags</span>
+                                                                                                    <span class="visuallyhidden">Метки</span>
                                                                                                     <a href="https://vip-restaurant.vamtam.com/tag/bio/"
-                                                                                                       rel="tag">Bio</a>,
+                                                                                                       rel="tag">Мясо</a>,
                                                                                                     <a href="https://vip-restaurant.vamtam.com/tag/dinner/"
-                                                                                                       rel="tag">Dinner</a>,
+                                                                                                       rel="tag">Обед</a>,
                                                                                                     <a href="https://vip-restaurant.vamtam.com/tag/food/"
-                                                                                                       rel="tag">Food</a>,
+                                                                                                       rel="tag">Еда</a>,
                                                                                                     <a href="https://vip-restaurant.vamtam.com/tag/hand-made/"
-                                                                                                       rel="tag">Hand
-                                                                                                        Made</a>, <a
-                                                                                                        href="https://vip-restaurant.vamtam.com/tag/lamb/"
-                                                                                                        rel="tag">lamb</a>,
+                                                                                                       rel="tag">Готовим сами</a>,
                                                                                                     <a href="https://vip-restaurant.vamtam.com/tag/recipe/"
-                                                                                                       rel="tag">recipe</a>,
-                                                                                                    <a href="https://vip-restaurant.vamtam.com/tag/tricks/"
-                                                                                                       rel="tag">tricks</a>
+                                                                                                       rel="tag">Рецепты</a>
                                                                                                 </div>
                                                                                             </div>
                                                                                             <div class="post-actions-wrapper clearfix">
                                                                                                 <div class="author vamtam-meta-author">
                                                                                                     <a href="https://vip-restaurant.vamtam.com/author/admin/"
-                                                                                                       title="Posts by Jon Madison"
+                                                                                                       title="Посты Анны Карловой"
                                                                                                        rel="author"><span
                                                                                                             class="icon shortcode theme  use-hover"></span>
                                                                                                         Анна Карлова</a>
                                                                                                 </div>
                                                                                                 <div class="post-date vamtam-meta-date">
                                                                                                     <a href="https://vip-restaurant.vamtam.com/best-lamb-in-the-world/"
-                                                                                                       title="Which Lamb is the Best: American, Australian or New Zealand?">
-                                                                                                        27 Сен,
+                                                                                                       title="Готовим баранину с техасским соусом">
+                                                                                                        9 Ноя,
                                                                                                         2017 </a>
                                                                                                 </div>
                                                                                                 <span class="comment-count vamtam-meta-comments">
@@ -3128,7 +3084,7 @@
                                                                                         <div class="post-media">
                                                                                             <div class="thumbnail">
                                                                                                 <a href="https://vip-restaurant.vamtam.com/brazilian-cocktail/"
-                                                                                                   title="The Caipirinha Is The Brazilian Cocktail You’ve Been Too Afraid To Pronounce">
+                                                                                                   title="Капуччино никогда не было таким вкусным!">
                                                                                                     <img src="assets/img/Cocktails-2-292x195.jpg"
                                                                                                          class="attachment-theme-normal-4 size-theme-normal-4 wp-post-image"
                                                                                                          alt=""
@@ -3158,52 +3114,40 @@
                                                                                                 <div class="content">
                                                                                                     <h4>
                                                                                                         <a href="https://vip-restaurant.vamtam.com/brazilian-cocktail/"
-                                                                                                           title="The Caipirinha Is The Brazilian Cocktail You’ve Been Too Afraid To Pronounce"
-                                                                                                           class="entry-title">The
-                                                                                                            Caipirinha
-                                                                                                            Is The
-                                                                                                            Brazilian
-                                                                                                            Cocktail
-                                                                                                            You’ve Been
-                                                                                                            Too Afraid
-                                                                                                            To
-                                                                                                            Pronounce</a>
+                                                                                                           title="Капуччино никогда не было таким вкусным!"
+                                                                                                           class="entry-title">Капуччино никогда не было таким вкусным!</a>
                                                                                                     </h4>
                                                                                                 </div>
                                                                                             </header>
                                                                                             <div class="post-content-outer">
-                                                                                                <p>It’s time to take a
-                                                                                                    break from the
-                                                                                                    mojito, put down the
-                                                                                                    margarita, and
-                                                                                                    give…</p>
+                                                                                                <p>Пришло время сделать перерыв от мохито, оставить в покое маргариту и взять...</p>
                                                                                             </div>
                                                                                             <div class="post-content-meta">
                                                                                                 <div class="the-tags vamtam-meta-tax">
                                                                                                     <span class="icon"></span>
-                                                                                                    <span class="visuallyhidden">Tags</span>
+                                                                                                    <span class="visuallyhidden">Метки</span>
                                                                                                     <a href="https://vip-restaurant.vamtam.com/tag/cocktail/"
-                                                                                                       rel="tag">cocktail</a>,
+                                                                                                       rel="tag">Кофе</a>,
                                                                                                     <a href="https://vip-restaurant.vamtam.com/tag/food/"
-                                                                                                       rel="tag">Food</a>,
+                                                                                                       rel="tag">Еда</a>,
                                                                                                     <a href="https://vip-restaurant.vamtam.com/tag/healthy/"
-                                                                                                       rel="tag">healthy</a>,
+                                                                                                       rel="tag">Здоровье</a>,
                                                                                                     <a href="https://vip-restaurant.vamtam.com/tag/recipe/"
-                                                                                                       rel="tag">recipe</a>
+                                                                                                       rel="tag">Рецепты</a>
                                                                                                 </div>
                                                                                             </div>
                                                                                             <div class="post-actions-wrapper clearfix">
                                                                                                 <div class="author vamtam-meta-author">
                                                                                                     <a href="https://vip-restaurant.vamtam.com/author/admin/"
-                                                                                                       title="Posts by Jon Madison"
+                                                                                                       title="Посты Анны Карловой"
                                                                                                        rel="author"><span
                                                                                                             class="icon shortcode theme  use-hover"></span>
                                                                                                         Анна Карлова</a>
                                                                                                 </div>
                                                                                                 <div class="post-date vamtam-meta-date">
                                                                                                     <a href="https://vip-restaurant.vamtam.com/brazilian-cocktail/"
-                                                                                                       title="The Caipirinha Is The Brazilian Cocktail You’ve Been Too Afraid To Pronounce">
-                                                                                                        1 Сен, 2017 </a>
+                                                                                                       title="Капуччино никогда не было таким вкусным!">
+                                                                                                        11 Окт, 2017 </a>
                                                                                                 </div>
                                                                                                 <span class="comment-count vamtam-meta-comments">
 <a href="https://vip-restaurant.vamtam.com/brazilian-cocktail/#respond"><span class="icon shortcode theme  use-hover"
@@ -3225,7 +3169,7 @@
                                                                                         <div class="post-media">
                                                                                             <div class="thumbnail">
                                                                                                 <a href="https://vip-restaurant.vamtam.com/plum-recipes/"
-                                                                                                   title="The Plum Recipes That’ll Make You Fall In Love With This Stone Fruit">
+                                                                                                   title="Рецепты со сливами, которые заставят вас полюбить этот чудесный фрукт">
                                                                                                     <img src="assets/img/Sandwiches-1-292x195.jpg"
                                                                                                          class="attachment-theme-normal-4 size-theme-normal-4 wp-post-image"
                                                                                                          alt=""
@@ -3248,56 +3192,46 @@
                                                                                                         href="https://vip-restaurant.vamtam.com/category/cooking/"
                                                                                                         rel="category tag">Готовка</a>
                                                                                                     <a href="https://vip-restaurant.vamtam.com/category/healthy-food/"
-                                                                                                       rel="category tag">здоровая Еда</a></div>
+                                                                                                       rel="category tag">Здоровая Еда</a></div>
                                                                                             </div>
                                                                                             <header class="single">
                                                                                                 <div class="content">
                                                                                                     <h4>
                                                                                                         <a href="https://vip-restaurant.vamtam.com/plum-recipes/"
-                                                                                                           title="The Plum Recipes That’ll Make You Fall In Love With This Stone Fruit"
-                                                                                                           class="entry-title">The
-                                                                                                            Plum Recipes
-                                                                                                            That’ll Make
-                                                                                                            You Fall In
-                                                                                                            Love With
-                                                                                                            This Stone
-                                                                                                            Fruit</a>
+                                                                                                           title="Рецепты со сливами, которые заставят вас полюбить этот чудесный фрукт"
+                                                                                                           class="entry-title">Рецепты со сливами, которые заставят вас полюбить этот чудесный фрукт</a>
                                                                                                     </h4>
                                                                                                 </div>
                                                                                             </header>
                                                                                             <div class="post-content-outer">
-                                                                                                <p>It’s easy to forget
-                                                                                                    about plums. They’re
-                                                                                                    not the most popular
-                                                                                                    of summer fruits.
-                                                                                                    Plums…</p>
+                                                                                                <p>Очень легко забыть о сливах. Они не самые популярные летние фрукты. Сливы...</p>
                                                                                             </div>
                                                                                             <div class="post-content-meta">
                                                                                                 <div class="the-tags vamtam-meta-tax">
                                                                                                     <span class="icon"></span>
-                                                                                                    <span class="visuallyhidden">Tags</span>
+                                                                                                    <span class="visuallyhidden">Метки</span>
                                                                                                     <a href="https://vip-restaurant.vamtam.com/tag/cooking/"
-                                                                                                       rel="tag">cooking</a>,
+                                                                                                       rel="tag">Готовка</a>,
                                                                                                     <a href="https://vip-restaurant.vamtam.com/tag/healthy/"
-                                                                                                       rel="tag">healthy</a>,
+                                                                                                       rel="tag">Здоровье</a>,
                                                                                                     <a href="https://vip-restaurant.vamtam.com/tag/plum/"
-                                                                                                       rel="tag">plum</a>,
+                                                                                                       rel="tag">Сливы</a>,
                                                                                                     <a href="https://vip-restaurant.vamtam.com/tag/recipe/"
-                                                                                                       rel="tag">recipe</a>
+                                                                                                       rel="tag">Рецепты</a>
                                                                                                 </div>
                                                                                             </div>
                                                                                             <div class="post-actions-wrapper clearfix">
                                                                                                 <div class="author vamtam-meta-author">
                                                                                                     <a href="https://vip-restaurant.vamtam.com/author/admin/"
-                                                                                                       title="Posts by Jon Madison"
+                                                                                                       title="Посты Анны Карловой"
                                                                                                        rel="author"><span
                                                                                                             class="icon shortcode theme  use-hover"></span>
                                                                                                         Анна Карлова</a>
                                                                                                 </div>
                                                                                                 <div class="post-date vamtam-meta-date">
                                                                                                     <a href="https://vip-restaurant.vamtam.com/plum-recipes/"
-                                                                                                       title="The Plum Recipes That’ll Make You Fall In Love With This Stone Fruit">
-                                                                                                        23 Авг,
+                                                                                                       title="Рецепты со сливами, которые заставят вас полюбить этот чудесный фрукт">
+                                                                                                        29 Сен,
                                                                                                         2017 </a>
                                                                                                 </div>
                                                                                                 <span class="comment-count vamtam-meta-comments">
@@ -3351,20 +3285,13 @@
                                                                                                 <div class="content">
                                                                                                     <h4>
                                                                                                         <a href="https://vip-restaurant.vamtam.com/seek-out-fresh-figs/"
-                                                                                                           title="24 Reasons To Seek Out Fresh Figs"
-                                                                                                           class="entry-title">24
-                                                                                                            Reasons To
-                                                                                                            Seek Out
-                                                                                                            Fresh
-                                                                                                            Figs</a>
+                                                                                                           title="24 причины есть инжир"
+                                                                                                           class="entry-title">24 причины есть инжир</a>
                                                                                                     </h4>
                                                                                                 </div>
                                                                                             </header>
                                                                                             <div class="post-content-outer">
-                                                                                                <p>Dried figs are great
-                                                                                                    and all, but if
-                                                                                                    you’ve ever tasted a
-                                                                                                    fresh fig you…</p>
+                                                                                                <p>Сухой инжир - отличный сам по себе. Но если вы когда-либо пробовали свежий инжир, то Вам...</p>
                                                                                             </div>
                                                                                             <div class="post-content-meta">
                                                                                                 <div class="the-tags vamtam-meta-tax">
@@ -3385,15 +3312,15 @@
                                                                                             <div class="post-actions-wrapper clearfix">
                                                                                                 <div class="author vamtam-meta-author">
                                                                                                     <a href="https://vip-restaurant.vamtam.com/author/admin/"
-                                                                                                       title="Posts by Jon Madison"
+                                                                                                       title="Посты Анны Карловой"
                                                                                                        rel="author"><span
                                                                                                             class="icon shortcode theme  use-hover"></span>
                                                                                                         Анна Карлова</a>
                                                                                                 </div>
                                                                                                 <div class="post-date vamtam-meta-date">
                                                                                                     <a href="https://vip-restaurant.vamtam.com/seek-out-fresh-figs/"
-                                                                                                       title="24 Reasons To Seek Out Fresh Figs">
-                                                                                                        22 Авг,
+                                                                                                       title="24 причины есть инжир">
+                                                                                                        22 Сен,
                                                                                                         2017 </a>
                                                                                                 </div>
                                                                                                 <span class="comment-count vamtam-meta-comments">
@@ -3445,7 +3372,7 @@
                                 </aside>
                             </div>
                             <div class="row">
-                                <aside class="cell-1-3 fit" data-id="2" style="min-height: 205px;">
+                                <!--<aside class="cell-1-3 fit" data-id="2" style="min-height: 205px;">
                                     <section id="text-15" class="widget widget_text"><h4 class="widget-title">О нас</h4>
                                         <div class="textwidget"><p>Osteria Francescana is a restaurant owned and run by
                                             chef Massimo Bottura in Modena, Italy</p>
@@ -3457,7 +3384,7 @@
                                                         style="color:#ffffff">Buy this Delicious Theme</span></a></p>
                                         </div>
                                     </section>
-                                </aside>
+                                </aside>-->
                                 <aside class="cell-1-3 fit" data-id="3" style="min-height: 205px;">
                                     <section id="text-22" class="widget widget_text"><h4 class="widget-title">Получить свежие предложения</h4>
                                         <div class="textwidget">

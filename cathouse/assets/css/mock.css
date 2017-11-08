@@ -14592,3 +14592,82 @@ cite {
 .foodpress_menu .fp_menu_sub_section {
     color: #89b649;
 }
+
+/* Custom */
+@media screen and (max-width: 500px) {
+    #vamtam-column-64474b652aebd2b52cd614271bf5da4b h2,
+    #vamtam-column-64474b652aebd2b52cd614271bf5da4b p {
+        padding-left: 0 !important;
+    }
+    .products .cbp-wrapper {
+        width: 300% !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .products .cbp-wrapper .cbp-item {
+        position: static;
+    }
+    .vamtam-parallax-bg-img.mobile_hidden {
+        display: none;
+    }
+    .vamtam-grid.grid-1-3.grid-1-3.unextended.no-extended-padding {
+        min-height: 530px !important;
+    }
+    .header-slider-wrapper .tp-parallax-wrap .tp-caption.tp-resizeme {
+        font-size: 80px !important;
+        min-width: 300px !important;
+        max-width: 400px !important;
+    }
+    #rev_slider_39_1_forcefullwidth,
+    #rev_slider_39_1_wrapper {
+        height: 600px !important;
+    }
+    .slotholder .tp-bgimg.defaultimg {
+        background-position: 30% 50% !important;
+    }
+    .header-slider-wrapper .tp-parallax-wrap #slide-125-layer-3 {
+        font-size: 16px !important;
+    }
+    .header-slider-wrapper .tp-parallax-wrap {
+        left: 15% !important;
+        transform: translate(-50%, -50%);
+    }
+    #first_row {
+        top: 385px !important;
+    }
+    #second_row {
+        top: 452px !important;
+    }
+    #third_row {
+        top: 510px !important;
+    }
+    .portfolio-items {
+        height: auto !important;
+    }
+    .portfolio-items .cbp-wrapper {
+        position: relative !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio-items .cbp-wrapper .cbp-item {
+        position: static;
+        width: 100% !important;
+        overflow: visible;
+    }
+    .loop-wrapper.mosaic.cbp-caption-pushTop .cbp-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .loop-wrapper.mosaic.cbp-caption-pushTop {
+        height: auto !important;
+    }
+    .loop-wrapper.mosaic.cbp-caption-pushTop .cbp-wrapper {
+        position: relative;
+    }
+    .loop-wrapper.mosaic.cbp-caption-pushTop .cbp-wrapper .list-item {
+        position: static;
+        width: 100% !important;
+        overflow: visible;
+    }
+}
