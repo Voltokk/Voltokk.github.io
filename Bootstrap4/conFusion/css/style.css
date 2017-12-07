@@ -28,3 +28,10 @@
     margin: 0;
     color: #0f0f0f;
 }
+
+@media screen and (max-width: 540px) {
+    .xs-hidden {
+        visibility: hidden !important;
+        display: none;
+    }
+}
