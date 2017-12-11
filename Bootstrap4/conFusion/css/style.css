@@ -29,6 +29,53 @@
     color: #0f0f0f;
 }
 
+nav {
+    background: rebeccapurple;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+nav .navbar-brand:hover,
+nav .navbar-brand:focus {
+    color: yellow;
+}
+
+nav li {
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+nav li:hover a,
+nav li:focus a {
+    color: yellow;
+}
+
+nav li:hover,
+nav li:focus {
+    border-bottom: 2px solid yellow;
+}
+
+body {
+    padding: 50px 0 0;
+    z-index: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 540px) {
     .xs-hidden {
         visibility: hidden !important;
