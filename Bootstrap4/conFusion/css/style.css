@@ -45,6 +45,22 @@ nav a {
     color: #ffffff;
 }
 
+#Navbar {
+    display: block;
+}
+
+.navbar-toggler {
+    border: 1px solid yellow;
+}
+
+.fa {
+    margin-right: 7px;
+}
+
+nav .fa {
+    color: yellow;
+}
+
 nav .navbar-brand:hover,
 nav .navbar-brand:focus {
     color: yellow;
